@@ -12,7 +12,7 @@
  * Cherry MX type keyswitches in Kaihl Hot-Swap sockets.
  * Mid-mounted USB-C connector for durability and low profile.
  * Dual sided reversible design, identical PCB and thumbcluster PCB for both halves.
- * Each half can work as a master/slave pair (TRRS/I2C link) and as a gamepad the left/right hand without reprogramming.
+ * Each half can work as a master/slave pair (TRRS/I2C link) and as a one-hand gamepad without reprogramming.
  * Flexible thumbcluster design, supports 1-8 keys per side, connected to main PCB with ribbon cable.
  
  Available main layouts:
