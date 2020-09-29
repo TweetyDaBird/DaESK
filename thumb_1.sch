@@ -39,8 +39,8 @@ P 10100 2250
 AR Path="/5E181991/5F0FC185" Ref="C9R?"  Part="1" 
 AR Path="/5E27F2D1/5F0FC185" Ref="TH2_R2"  Part="1" 
 AR Path="/5F0FC185" Ref="TH2_R2"  Part="1" 
-AR Path="/5F7E5505/5F0FC185" Ref="C9R2"  Part="1" 
-F 0 "C9R2" H 10100 2535 50  0000 C CNN
+AR Path="/5F7E5505/5F0FC185" Ref="TH2_R2"  Part="1" 
+F 0 "TH2_R2" H 10100 2535 50  0000 C CNN
 F 1 "SW_Push" H 10100 2444 50  0000 C CNN
 F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 10100 2450 50  0001 C CNN
 F 3 "~" H 10100 2450 50  0001 C CNN
@@ -54,8 +54,8 @@ P 10100 1800
 AR Path="/5E181991/5F0FBB77" Ref="C9R?"  Part="1" 
 AR Path="/5E27F2D1/5F0FBB77" Ref="TH2_R1"  Part="1" 
 AR Path="/5F0FBB77" Ref="TH2_R1"  Part="1" 
-AR Path="/5F7E5505/5F0FBB77" Ref="C9R1"  Part="1" 
-F 0 "C9R1" H 10100 2085 50  0000 C CNN
+AR Path="/5F7E5505/5F0FBB77" Ref="TH2_R1"  Part="1" 
+F 0 "TH2_R1" H 10100 2085 50  0000 C CNN
 F 1 "SW_Push" H 10100 1994 50  0000 C CNN
 F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2_2u" H 10100 2000 50  0001 C CNN
 F 3 "~" H 10100 2000 50  0001 C CNN
@@ -132,8 +132,8 @@ P 8950 2250
 AR Path="/5E181991/5E2B7664" Ref="C8R?"  Part="1" 
 AR Path="/5E27F2D1/5E2B7664" Ref="TH1_R2"  Part="1" 
 AR Path="/5E2B7664" Ref="TH1_R2"  Part="1" 
-AR Path="/5F7E5505/5E2B7664" Ref="C8R2"  Part="1" 
-F 0 "C8R2" H 8950 2535 50  0000 C CNN
+AR Path="/5F7E5505/5E2B7664" Ref="TH1_R2"  Part="1" 
+F 0 "TH1_R2" H 8950 2535 50  0000 C CNN
 F 1 "SW_Push" H 8950 2444 50  0000 C CNN
 F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 8950 2450 50  0001 C CNN
 F 3 "~" H 8950 2450 50  0001 C CNN
@@ -177,8 +177,8 @@ P 8950 3100
 AR Path="/5E181991/5E2B7650" Ref="C8R?"  Part="1" 
 AR Path="/5E27F2D1/5E2B7650" Ref="TH1_R4"  Part="1" 
 AR Path="/5E2B7650" Ref="TH1_R4"  Part="1" 
-AR Path="/5F7E5505/5E2B7650" Ref="C8R4"  Part="1" 
-F 0 "C8R4" H 8950 3385 50  0000 C CNN
+AR Path="/5F7E5505/5E2B7650" Ref="TH1_R4"  Part="1" 
+F 0 "TH1_R4" H 8950 3385 50  0000 C CNN
 F 1 "SW_Push" H 8950 3294 50  0000 C CNN
 F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 8950 3300 50  0001 C CNN
 F 3 "~" H 8950 3300 50  0001 C CNN
@@ -192,8 +192,8 @@ P 8950 2700
 AR Path="/5E181991/5E2B764A" Ref="C8R?"  Part="1" 
 AR Path="/5E27F2D1/5E2B764A" Ref="TH1_R3"  Part="1" 
 AR Path="/5E2B764A" Ref="TH1_R3"  Part="1" 
-AR Path="/5F7E5505/5E2B764A" Ref="C8R3"  Part="1" 
-F 0 "C8R3" H 8950 2985 50  0000 C CNN
+AR Path="/5F7E5505/5E2B764A" Ref="TH1_R3"  Part="1" 
+F 0 "TH1_R3" H 8950 2985 50  0000 C CNN
 F 1 "SW_Push" H 8950 2894 50  0000 C CNN
 F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 8950 2900 50  0001 C CNN
 F 3 "~" H 8950 2900 50  0001 C CNN
@@ -207,8 +207,8 @@ P 8950 1850
 AR Path="/5E181991/5E2B7644" Ref="C8R?"  Part="1" 
 AR Path="/5E27F2D1/5E2B7644" Ref="TH1_R1"  Part="1" 
 AR Path="/5E2B7644" Ref="TH1_R1"  Part="1" 
-AR Path="/5F7E5505/5E2B7644" Ref="C8R1"  Part="1" 
-F 0 "C8R1" H 8950 2135 50  0000 C CNN
+AR Path="/5F7E5505/5E2B7644" Ref="TH1_R1"  Part="1" 
+F 0 "TH1_R1" H 8950 2135 50  0000 C CNN
 F 1 "SW_Push" H 8950 2044 50  0000 C CNN
 F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 8950 2050 50  0001 C CNN
 F 3 "~" H 8950 2050 50  0001 C CNN
@@ -383,8 +383,8 @@ P 3150 1900
 AR Path="/5E1D7472/5ECE2458" Ref="RGB_C6R?"  Part="1" 
 AR Path="/5E27F2D1/5ECE2458" Ref="RGB_TH1R1"  Part="1" 
 AR Path="/5ECE2458" Ref="RGB_TH1R1"  Part="1" 
-AR Path="/5F7E5505/5ECE2458" Ref="RGB_C6R4"  Part="1" 
-F 0 "RGB_C6R4" H 3150 2397 50  0000 C CNN
+AR Path="/5F7E5505/5ECE2458" Ref="RGB_TH1R1"  Part="1" 
+F 0 "RGB_TH1R1" H 3150 2397 50  0000 C CNN
 F 1 "CB1_9" H 3150 2306 50  0000 C CNN
 F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 5000 2000 50  0001 L CNN
 F 3 "" H 5000 1900 50  0001 L CNN
@@ -399,34 +399,13 @@ F 9 "APTF1616SEJ3ZGGVBDC" H 5000 1300 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 $Comp
 L Device:LED_ARGB RGB_C6R?
-U 1 1 5ECE244C
-P 2100 1900
-AR Path="/5E1D7472/5ECE244C" Ref="RGB_C6R?"  Part="1" 
-AR Path="/5E27F2D1/5ECE244C" Ref="RGB_TH1R2"  Part="1" 
-AR Path="/5ECE244C" Ref="RGB_TH1R2"  Part="1" 
-AR Path="/5F7E5505/5ECE244C" Ref="RGB_C6R1"  Part="1" 
-F 0 "RGB_C6R1" H 2100 2397 50  0000 C CNN
-F 1 "CB1_8" H 2100 2306 50  0000 C CNN
-F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 3950 2000 50  0001 L CNN
-F 3 "" H 3950 1900 50  0001 L CNN
-F 4 "" H 3950 1800 50  0001 L CNN "Description"
-F 5 "" H 3950 1700 50  0001 L CNN "Height"
-F 6 "" H 3950 1600 50  0001 L CNN "Mouser Part Number"
-F 7 "" H 3950 1500 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Kingbright" H 3950 1400 50  0001 L CNN "Manufacturer_Name"
-F 9 "APTF1616SEJ3ZGGVBDC" H 3950 1300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2100 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_ARGB RGB_C6R?
 U 1 1 5ECE2440
 P 2100 3150
 AR Path="/5E1D7472/5ECE2440" Ref="RGB_C6R?"  Part="1" 
 AR Path="/5E27F2D1/5ECE2440" Ref="RGB_TH1R3"  Part="1" 
 AR Path="/5ECE2440" Ref="RGB_TH1R3"  Part="1" 
-AR Path="/5F7E5505/5ECE2440" Ref="RGB_C6R2"  Part="1" 
-F 0 "RGB_C6R2" H 2100 3647 50  0000 C CNN
+AR Path="/5F7E5505/5ECE2440" Ref="RGB_TH1R3"  Part="1" 
+F 0 "RGB_TH1R3" H 2100 3647 50  0000 C CNN
 F 1 "CB1_7" H 2100 3556 50  0000 C CNN
 F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 3950 3250 50  0001 L CNN
 F 3 "" H 3950 3150 50  0001 L CNN
@@ -446,8 +425,8 @@ P 2100 4400
 AR Path="/5E1D7472/5ECE2434" Ref="RGB_C6R?"  Part="1" 
 AR Path="/5E27F2D1/5ECE2434" Ref="RGB_TH1R4"  Part="1" 
 AR Path="/5ECE2434" Ref="RGB_TH1R4"  Part="1" 
-AR Path="/5F7E5505/5ECE2434" Ref="RGB_C6R3"  Part="1" 
-F 0 "RGB_C6R3" H 2100 4897 50  0000 C CNN
+AR Path="/5F7E5505/5ECE2434" Ref="RGB_TH1R4"  Part="1" 
+F 0 "RGB_TH1R4" H 2100 4897 50  0000 C CNN
 F 1 "CB1_6" H 2100 4806 50  0000 C CNN
 F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 3950 4500 50  0001 L CNN
 F 3 "" H 3950 4400 50  0001 L CNN
@@ -467,8 +446,8 @@ P 3100 4400
 AR Path="/5E1D7472/5ECE2428" Ref="RGB_C7R?"  Part="1" 
 AR Path="/5E27F2D1/5ECE2428" Ref="RGB_TH2R1"  Part="1" 
 AR Path="/5ECE2428" Ref="RGB_TH2R1"  Part="1" 
-AR Path="/5F7E5505/5ECE2428" Ref="RGB_C7R1"  Part="1" 
-F 0 "RGB_C7R1" H 3100 4897 50  0000 C CNN
+AR Path="/5F7E5505/5ECE2428" Ref="RGB_TH2R1"  Part="1" 
+F 0 "RGB_TH2R1" H 3100 4897 50  0000 C CNN
 F 1 "CB2_1" H 3100 4806 50  0000 C CNN
 F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 4950 4500 50  0001 L CNN
 F 3 "" H 4950 4400 50  0001 L CNN
@@ -488,8 +467,8 @@ P 4100 4400
 AR Path="/5E1D7472/5ECE241C" Ref="RGB_C7R?"  Part="1" 
 AR Path="/5E27F2D1/5ECE241C" Ref="RGB_TH2R2"  Part="1" 
 AR Path="/5ECE241C" Ref="RGB_TH2R2"  Part="1" 
-AR Path="/5F7E5505/5ECE241C" Ref="RGB_C7R2"  Part="1" 
-F 0 "RGB_C7R2" H 4100 4897 50  0000 C CNN
+AR Path="/5F7E5505/5ECE241C" Ref="RGB_TH2R2"  Part="1" 
+F 0 "RGB_TH2R2" H 4100 4897 50  0000 C CNN
 F 1 "CB2_2" H 4100 4806 50  0000 C CNN
 F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 5950 4500 50  0001 L CNN
 F 3 "" H 5950 4400 50  0001 L CNN
@@ -535,8 +514,8 @@ P 6150 4400
 AR Path="/5E1D7472/5F2596F6" Ref="RGB_TH2R?"  Part="1" 
 AR Path="/5E27F2D1/5F2596F6" Ref="RGB_TH2R4"  Part="1" 
 AR Path="/5F2596F6" Ref="RGB_TH2R4"  Part="1" 
-AR Path="/5F7E5505/5F2596F6" Ref="RGB_TH2R1"  Part="1" 
-F 0 "RGB_TH2R1" H 6150 4897 50  0000 C CNN
+AR Path="/5F7E5505/5F2596F6" Ref="RGB_TH2R4"  Part="1" 
+F 0 "RGB_TH2R4" H 6150 4897 50  0000 C CNN
 F 1 "CB2_3" H 6150 4806 50  0000 C CNN
 F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 8000 4500 50  0001 L CNN
 F 3 "" H 8000 4400 50  0001 L CNN
@@ -560,8 +539,8 @@ P 5250 4400
 AR Path="/5E1D7472/5ECE2410" Ref="RGB_C7R?"  Part="1" 
 AR Path="/5E27F2D1/5ECE2410" Ref="RGB_TH2R3"  Part="1" 
 AR Path="/5ECE2410" Ref="RGB_TH2R3"  Part="1" 
-AR Path="/5F7E5505/5ECE2410" Ref="RGB_C7R3"  Part="1" 
-F 0 "RGB_C7R3" H 5250 4897 50  0000 C CNN
+AR Path="/5F7E5505/5ECE2410" Ref="RGB_TH2R3"  Part="1" 
+F 0 "RGB_TH2R3" H 5250 4897 50  0000 C CNN
 F 1 "CB2_3" H 5250 4806 50  0000 C CNN
 F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 7100 4500 50  0001 L CNN
 F 3 "" H 7100 4400 50  0001 L CNN
@@ -647,8 +626,8 @@ P 10100 2650
 AR Path="/5E181991/5EF71573" Ref="C9R?"  Part="1" 
 AR Path="/5E27F2D1/5EF71573" Ref="TH2_R3"  Part="1" 
 AR Path="/5EF71573" Ref="TH2_R3"  Part="1" 
-AR Path="/5F7E5505/5EF71573" Ref="C9R3"  Part="1" 
-F 0 "C9R3" H 10100 2935 50  0000 C CNN
+AR Path="/5F7E5505/5EF71573" Ref="TH2_R3"  Part="1" 
+F 0 "TH2_R3" H 10100 2935 50  0000 C CNN
 F 1 "SW_Push" H 10100 2844 50  0000 C CNN
 F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 10100 2850 50  0001 C CNN
 F 3 "~" H 10100 2850 50  0001 C CNN
@@ -670,8 +649,8 @@ P 10100 3050
 AR Path="/5E181991/5F23B58D" Ref="TH2_R?"  Part="1" 
 AR Path="/5E27F2D1/5F23B58D" Ref="TH2_R4"  Part="1" 
 AR Path="/5F23B58D" Ref="TH2_R4"  Part="1" 
-AR Path="/5F7E5505/5F23B58D" Ref="TH2_R1"  Part="1" 
-F 0 "TH2_R1" H 10100 3335 50  0000 C CNN
+AR Path="/5F7E5505/5F23B58D" Ref="TH2_R4"  Part="1" 
+F 0 "TH2_R4" H 10100 3335 50  0000 C CNN
 F 1 "SW_Push" H 10100 3244 50  0000 C CNN
 F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 10100 3250 50  0001 C CNN
 F 3 "~" H 10100 3250 50  0001 C CNN
@@ -685,21 +664,21 @@ Wire Wire Line
 Wire Wire Line
 	9750 3050 9900 3050
 $Comp
-L Connector_Generic:Conn_01x08 J3
+L Connector_Generic:Conn_01x08 J5
 U 1 1 5F6E2158
 P 3650 7100
-F 0 "J3" H 3730 7092 50  0000 L CNN
+F 0 "J5" H 3730 7092 50  0000 L CNN
 F 1 "Mousebite 8" H 3730 7001 50  0000 L CNN
-F 2 "Keyboard-Library:mousebite8" H 3650 7100 50  0001 C CNN
+F 2 "Keyboard Library:mousebite8" H 3650 7100 50  0001 C CNN
 F 3 "~" H 3650 7100 50  0001 C CNN
 	1    3650 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J2
+L Connector_Generic:Conn_01x10 J4
 U 1 1 5F6E2C29
 P 2750 7000
-F 0 "J2" H 2830 6992 50  0000 L CNN
+F 0 "J4" H 2830 6992 50  0000 L CNN
 F 1 "Mousebite 10" H 2830 6901 50  0000 L CNN
 F 2 "Keyboard-Library:mousebite10" H 2750 7000 50  0001 C CNN
 F 3 "~" H 2750 7000 50  0001 C CNN
@@ -737,8 +716,8 @@ AR Path="/5E135D8F/5F7BC5B9" Ref="J?"  Part="1"
 AR Path="/5E1D7472/5F7BC5B9" Ref="J?"  Part="1" 
 AR Path="/5FC9D016/5F7BC5B9" Ref="J?"  Part="1" 
 AR Path="/5F7BC5B9" Ref="J6"  Part="1" 
-AR Path="/5F7E5505/5F7BC5B9" Ref="J9"  Part="1" 
-F 0 "J9" H 8850 5150 50  0000 C CNN
+AR Path="/5F7E5505/5F7BC5B9" Ref="J1"  Part="1" 
+F 0 "J1" H 8850 5150 50  0000 C CNN
 F 1 "Conn_01x11" H 9000 5050 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x11_P1.27mm_Vertical" H 8700 5100 50  0001 C CNN
 F 3 "~" H 8700 5100 50  0001 C CNN
@@ -777,8 +756,8 @@ AR Path="/5E27F2D1/5F7BC5CB" Ref="J9"  Part="1"
 AR Path="/5E135D8F/5F7BC5CB" Ref="J?"  Part="1" 
 AR Path="/5FC9D016/5F7BC5CB" Ref="J?"  Part="1" 
 AR Path="/5F7BC5CB" Ref="J9"  Part="1" 
-AR Path="/5F7E5505/5F7BC5CB" Ref="J10"  Part="1" 
-F 0 "J10" H 10350 5100 50  0000 C CNN
+AR Path="/5F7E5505/5F7BC5CB" Ref="J2"  Part="1" 
+F 0 "J2" H 10350 5100 50  0000 C CNN
 F 1 "Conn_01x06" H 10500 5000 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 10200 5050 50  0001 C CNN
 F 3 "~" H 10200 5050 50  0001 C CNN
@@ -786,21 +765,21 @@ F 3 "~" H 10200 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J6
+L Connector_Generic:Conn_01x04 J8
 U 1 1 5F7D27ED
 P 5350 6350
-F 0 "J6" H 5430 6342 50  0000 L CNN
+F 0 "J8" H 5430 6342 50  0000 L CNN
 F 1 "Mousebite 4" H 5430 6251 50  0000 L CNN
-F 2 "Keyboard-Library:mousebite4" H 5350 6350 50  0001 C CNN
+F 2 "Keyboard Library:mousebite4" H 5350 6350 50  0001 C CNN
 F 3 "~" H 5350 6350 50  0001 C CNN
 	1    5350 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J1
+L Connector_Generic:Conn_01x10 J3
 U 1 1 5F7E94E6
 P 1900 7000
-F 0 "J1" H 1980 6992 50  0000 L CNN
+F 0 "J3" H 1980 6992 50  0000 L CNN
 F 1 "Mousebite 10" H 1980 6901 50  0000 L CNN
 F 2 "Keyboard-Library:mousebite10" H 1900 7000 50  0001 C CNN
 F 3 "~" H 1900 7000 50  0001 C CNN
@@ -808,45 +787,45 @@ F 3 "~" H 1900 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J4
+L Connector_Generic:Conn_01x05 J6
 U 1 1 5F7EBFD8
 P 4500 6750
-F 0 "J4" H 4580 6742 50  0000 L CNN
+F 0 "J6" H 4580 6742 50  0000 L CNN
 F 1 "Mousebite 5" H 4580 6651 50  0000 L CNN
-F 2 "Keyboard-Library:mousebite5" H 4500 6750 50  0001 C CNN
+F 2 "Keyboard Library:mousebite5" H 4500 6750 50  0001 C CNN
 F 3 "~" H 4500 6750 50  0001 C CNN
 	1    4500 6750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J8
+L Connector_Generic:Conn_01x04 J10
 U 1 1 5F7EC4CA
 P 5350 7300
-F 0 "J8" H 5430 7292 50  0000 L CNN
+F 0 "J10" H 5430 7292 50  0000 L CNN
 F 1 "Mousebite 4" H 5430 7201 50  0000 L CNN
-F 2 "Keyboard-Library:mousebite4" H 5350 7300 50  0001 C CNN
+F 2 "Keyboard Library:mousebite4" H 5350 7300 50  0001 C CNN
 F 3 "~" H 5350 7300 50  0001 C CNN
 	1    5350 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J7
+L Connector_Generic:Conn_01x04 J9
 U 1 1 5F7ECBF1
 P 5350 6800
-F 0 "J7" H 5430 6792 50  0000 L CNN
+F 0 "J9" H 5430 6792 50  0000 L CNN
 F 1 "Mousebite 4" H 5430 6701 50  0000 L CNN
-F 2 "Keyboard-Library:mousebite4" H 5350 6800 50  0001 C CNN
+F 2 "Keyboard Library:mousebite4" H 5350 6800 50  0001 C CNN
 F 3 "~" H 5350 6800 50  0001 C CNN
 	1    5350 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J5
+L Connector_Generic:Conn_01x05 J7
 U 1 1 5F7ED03D
 P 4500 7300
-F 0 "J5" H 4580 7292 50  0000 L CNN
+F 0 "J7" H 4580 7292 50  0000 L CNN
 F 1 "Mousebite 5" H 4580 7201 50  0000 L CNN
-F 2 "Keyboard-Library:mousebite5" H 4500 7300 50  0001 C CNN
+F 2 "Keyboard Library:mousebite5" H 4500 7300 50  0001 C CNN
 F 3 "~" H 4500 7300 50  0001 C CNN
 	1    4500 7300
 	1    0    0    -1  
@@ -857,4 +836,25 @@ Wire Notes Line
 	7350 700  7350 6300
 Wire Notes Line
 	7350 5900 600  5900
+$Comp
+L Device:LED_ARGB RGB_C6R?
+U 1 1 5ECE244C
+P 2100 1900
+AR Path="/5E1D7472/5ECE244C" Ref="RGB_C6R?"  Part="1" 
+AR Path="/5E27F2D1/5ECE244C" Ref="RGB_TH1R2"  Part="1" 
+AR Path="/5ECE244C" Ref="RGB_TH1R2"  Part="1" 
+AR Path="/5F7E5505/5ECE244C" Ref="RGB_TH1R2"  Part="1" 
+F 0 "RGB_TH1R2" H 2100 2397 50  0000 C CNN
+F 1 "CB1_8" H 2100 2306 50  0000 C CNN
+F 2 "Keyboard Library:LEDSC160X160X070-4N_reversible" H 3950 2000 50  0001 L CNN
+F 3 "" H 3950 1900 50  0001 L CNN
+F 4 "" H 3950 1800 50  0001 L CNN "Description"
+F 5 "" H 3950 1700 50  0001 L CNN "Height"
+F 6 "" H 3950 1600 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 3950 1500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 3950 1400 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 3950 1300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2100 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
