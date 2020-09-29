@@ -23,4 +23,4 @@
  * Already designed in mounting holes for a low profile FR4 midplate/backplate case design.
  
  Current Version:
- 0.9x - Almost ready for prototype PCB order
+ v0.9x - Almost ready for prototype PCB order
