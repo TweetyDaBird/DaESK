@@ -1,0 +1,841 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "Da.E.S.K - 3 Row RGB Array"
+Date "2020-09-29"
+Rev "0.91"
+Comp "Markus Knutsson <markus.knutsson@tweety.se>"
+Comment1 "https://github.com/TweetyDaBird"
+Comment2 "Licensed under CERN-OHL-S v2 or any later version"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED_ARGB RGB_C2R?
+U 1 1 5E3DE514
+P 3850 3050
+AR Path="/5E1D7472/5E3DE514" Ref="RGB_C2R?"  Part="1" 
+AR Path="/5E49A860/5E3DE514" Ref="RGB_C2R2"  Part="1" 
+F 0 "RGB_C2R2" H 3850 3547 50  0000 C CNN
+F 1 "6-ABC" H 3850 3456 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 5700 3150 50  0001 L CNN
+F 3 "" H 5700 3050 50  0001 L CNN
+F 4 "" H 5700 2950 50  0001 L CNN "Description"
+F 5 "" H 5700 2850 50  0001 L CNN "Height"
+F 6 "" H 5700 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 5700 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 5700 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 5700 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C3R?
+U 1 1 5EA61A6D
+P 5050 1800
+AR Path="/5E1D7472/5EA61A6D" Ref="RGB_C3R?"  Part="1" 
+AR Path="/5E49A860/5EA61A6D" Ref="RGB_C3R1"  Part="1" 
+F 0 "RGB_C3R1" H 5050 2297 50  0000 C CNN
+F 1 "9-ABC" H 5050 2206 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 6900 1900 50  0001 L CNN
+F 3 "" H 6900 1800 50  0001 L CNN
+F 4 "" H 6900 1700 50  0001 L CNN "Description"
+F 5 "" H 6900 1600 50  0001 L CNN "Height"
+F 6 "" H 6900 1500 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 6900 1400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 6900 1300 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 6900 1200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C3R?
+U 1 1 5EA61A79
+P 5050 3050
+AR Path="/5E1D7472/5EA61A79" Ref="RGB_C3R?"  Part="1" 
+AR Path="/5E49A860/5EA61A79" Ref="RGB_C3R2"  Part="1" 
+F 0 "RGB_C3R2" H 5050 3547 50  0000 C CNN
+F 1 "10-ABC" H 5050 3456 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 6900 3150 50  0001 L CNN
+F 3 "" H 6900 3050 50  0001 L CNN
+F 4 "" H 6900 2950 50  0001 L CNN "Description"
+F 5 "" H 6900 2850 50  0001 L CNN "Height"
+F 6 "" H 6900 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 6900 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 6900 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 6900 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C4R?
+U 1 1 5EA9E394
+P 6250 3050
+AR Path="/5E1D7472/5EA9E394" Ref="RGB_C4R?"  Part="1" 
+AR Path="/5E49A860/5EA9E394" Ref="RGB_C4R2"  Part="1" 
+F 0 "RGB_C4R2" H 6250 3547 50  0000 C CNN
+F 1 "2-DEF" H 6250 3456 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 8100 3150 50  0001 L CNN
+F 3 "" H 8100 3050 50  0001 L CNN
+F 4 "" H 8100 2950 50  0001 L CNN "Description"
+F 5 "" H 8100 2850 50  0001 L CNN "Height"
+F 6 "" H 8100 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 8100 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 8100 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 8100 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C4R?
+U 1 1 5EA9D285
+P 6250 1800
+AR Path="/5E1D7472/5EA9D285" Ref="RGB_C4R?"  Part="1" 
+AR Path="/5E49A860/5EA9D285" Ref="RGB_C4R1"  Part="1" 
+F 0 "RGB_C4R1" H 6250 2297 50  0000 C CNN
+F 1 "1-DEF" H 6250 2206 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 8100 1900 50  0001 L CNN
+F 3 "" H 8100 1800 50  0001 L CNN
+F 4 "" H 8100 1700 50  0001 L CNN "Description"
+F 5 "" H 8100 1600 50  0001 L CNN "Height"
+F 6 "" H 8100 1500 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 8100 1400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 8100 1300 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 8100 1200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6250 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3250 3650 3250
+Wire Wire Line
+	3600 3250 3600 3450
+Wire Wire Line
+	3600 2000 3650 2000
+Wire Wire Line
+	3500 3050 3650 3050
+Wire Wire Line
+	3500 3050 3500 3550
+Wire Wire Line
+	3500 1800 3650 1800
+Wire Wire Line
+	3400 3650 3400 2850
+Wire Wire Line
+	4250 1200 4250 1800
+Wire Wire Line
+	4800 3250 4800 3450
+Wire Wire Line
+	5800 3650 5800 2850
+Wire Wire Line
+	5800 2850 6050 2850
+Wire Wire Line
+	5800 1600 6050 1600
+Wire Wire Line
+	5900 1800 6050 1800
+Wire Wire Line
+	6050 3050 5900 3050
+Wire Wire Line
+	5900 3050 5900 3550
+Wire Wire Line
+	6050 3250 6000 3250
+Wire Wire Line
+	6000 3250 6000 3450
+Wire Wire Line
+	6000 2000 6050 2000
+Text GLabel 10250 1200 1    50   Input ~ 0
+CS1
+Wire Wire Line
+	6650 1200 6650 1800
+$Comp
+L Device:LED_ARGB RGB_C5R?
+U 1 1 5FD93066
+P 7450 1800
+AR Path="/5E1D7472/5FD93066" Ref="RGB_C5R?"  Part="1" 
+AR Path="/5E49A860/5FD93066" Ref="RGB_C5R1"  Part="1" 
+F 0 "RGB_C5R1" H 7450 2297 50  0000 C CNN
+F 1 "5-DEF" H 7450 2206 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 9300 1900 50  0001 L CNN
+F 3 "" H 9300 1800 50  0001 L CNN
+F 4 "" H 9300 1700 50  0001 L CNN "Description"
+F 5 "" H 9300 1600 50  0001 L CNN "Height"
+F 6 "" H 9300 1500 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 9300 1400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 9300 1300 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 9300 1200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C5R?
+U 1 1 5FD93072
+P 7450 3050
+AR Path="/5E1D7472/5FD93072" Ref="RGB_C5R?"  Part="1" 
+AR Path="/5E49A860/5FD93072" Ref="RGB_C5R2"  Part="1" 
+F 0 "RGB_C5R2" H 7450 3547 50  0000 C CNN
+F 1 "6-DEF" H 7450 3456 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 9300 3150 50  0001 L CNN
+F 3 "" H 9300 3050 50  0001 L CNN
+F 4 "" H 9300 2950 50  0001 L CNN "Description"
+F 5 "" H 9300 2850 50  0001 L CNN "Height"
+F 6 "" H 9300 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 9300 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 9300 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 9300 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7450 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3250 7250 3250
+Wire Wire Line
+	7200 3250 7200 3450
+Wire Wire Line
+	7200 2000 7250 2000
+Wire Wire Line
+	7100 3050 7250 3050
+Wire Wire Line
+	7100 3050 7100 3550
+Wire Wire Line
+	7100 1800 7250 1800
+Wire Wire Line
+	7000 2850 7250 2850
+Wire Wire Line
+	7000 2850 7000 3650
+Wire Wire Line
+	7000 1600 7250 1600
+Text GLabel 9050 1200 1    50   Input ~ 0
+CS2
+Wire Wire Line
+	7850 1200 7850 1800
+$Comp
+L Device:LED_ARGB RGB_C6R?
+U 1 1 5EF6D566
+P 8650 3050
+AR Path="/5E1D7472/5EF6D566" Ref="RGB_C6R?"  Part="1" 
+AR Path="/5E49A860/5EF6D566" Ref="RGB_C6R2"  Part="1" 
+F 0 "RGB_C6R2" H 8650 3547 50  0000 C CNN
+F 1 "CB1_8" H 8650 3456 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 10500 3150 50  0001 L CNN
+F 3 "" H 10500 3050 50  0001 L CNN
+F 4 "" H 10500 2950 50  0001 L CNN "Description"
+F 5 "" H 10500 2850 50  0001 L CNN "Height"
+F 6 "" H 10500 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 10500 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 10500 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 10500 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C6R?
+U 1 1 5EF6D572
+P 8650 1800
+AR Path="/5E1D7472/5EF6D572" Ref="RGB_C6R?"  Part="1" 
+AR Path="/5E49A860/5EF6D572" Ref="RGB_C6R1"  Part="1" 
+F 0 "RGB_C6R1" H 8650 2297 50  0000 C CNN
+F 1 "CB1_9" H 8650 2206 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 10500 1900 50  0001 L CNN
+F 3 "" H 10500 1800 50  0001 L CNN
+F 4 "" H 10500 1700 50  0001 L CNN "Description"
+F 5 "" H 10500 1600 50  0001 L CNN "Height"
+F 6 "" H 10500 1500 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 10500 1400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 10500 1300 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 10500 1200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8650 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3250 8400 3450
+Wire Wire Line
+	8400 2000 8450 2000
+Wire Wire Line
+	8400 3250 8450 3250
+Wire Wire Line
+	8300 1800 8450 1800
+Wire Wire Line
+	8450 3050 8300 3050
+Wire Wire Line
+	8300 3050 8300 3550
+Wire Wire Line
+	8450 2850 8200 2850
+Wire Wire Line
+	8200 2850 8200 3650
+Wire Wire Line
+	8200 1600 8450 1600
+Text GLabel 1950 3550 0    50   Input ~ 0
+SW7
+Text GLabel 1950 3650 0    50   Input ~ 0
+SW8
+Text GLabel 1950 3450 0    50   Input ~ 0
+SW9
+Wire Wire Line
+	3650 2850 3400 2850
+Wire Wire Line
+	3650 1600 3400 1600
+$Comp
+L Device:LED_ARGB RGB_C2R?
+U 1 1 5E3DE4FC
+P 3850 1800
+AR Path="/5E1D7472/5E3DE4FC" Ref="RGB_C2R?"  Part="1" 
+AR Path="/5E49A860/5E3DE4FC" Ref="RGB_C2R1"  Part="1" 
+F 0 "RGB_C2R1" H 3850 2297 50  0000 C CNN
+F 1 "5-ABC" H 3850 2206 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 5700 1900 50  0001 L CNN
+F 3 "" H 5700 1800 50  0001 L CNN
+F 4 "" H 5700 1700 50  0001 L CNN "Description"
+F 5 "" H 5700 1600 50  0001 L CNN "Height"
+F 6 "" H 5700 1500 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 5700 1400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 5700 1300 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 5700 1200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1600 4850 1600
+Wire Wire Line
+	4700 1800 4850 1800
+Wire Wire Line
+	4800 2000 4850 2000
+Wire Wire Line
+	4800 3250 4850 3250
+Wire Wire Line
+	4700 3050 4850 3050
+Wire Wire Line
+	4600 2850 4850 2850
+Wire Wire Line
+	4700 3550 4700 3050
+Wire Wire Line
+	4600 3650 4600 2850
+Text GLabel 6650 1200 1    50   Input ~ 0
+CS4
+Text GLabel 5450 1200 1    50   Input ~ 0
+CS5
+Text GLabel 2000 2300 0    50   Input ~ 0
+SW10
+Text GLabel 2000 2400 0    50   Input ~ 0
+SW11
+Text GLabel 2000 2200 0    50   Input ~ 0
+SW12
+Wire Wire Line
+	9600 3250 9650 3250
+Wire Wire Line
+	9500 3050 9650 3050
+Wire Wire Line
+	9650 2850 9400 2850
+$Comp
+L Device:LED_ARGB RGB_C7R?
+U 1 1 5EF6D536
+P 9850 3050
+AR Path="/5E1D7472/5EF6D536" Ref="RGB_C7R?"  Part="1" 
+AR Path="/5E49A860/5EF6D536" Ref="RGB_C7R2"  Part="1" 
+F 0 "RGB_C7R2" H 9850 3547 50  0000 C CNN
+F 1 "CB2_2" H 9850 3456 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 11700 3150 50  0001 L CNN
+F 3 "" H 11700 3050 50  0001 L CNN
+F 4 "" H 11700 2950 50  0001 L CNN "Description"
+F 5 "" H 11700 2850 50  0001 L CNN "Height"
+F 6 "" H 11700 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 11700 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 11700 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 11700 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3450 9600 3250
+Wire Wire Line
+	9500 3050 9500 3550
+Wire Wire Line
+	9400 3650 9400 2850
+Wire Wire Line
+	9650 2000 9600 2000
+Wire Wire Line
+	9500 1800 9650 1800
+Wire Wire Line
+	9650 1600 9400 1600
+$Comp
+L Device:LED_ARGB RGB_C7R?
+U 1 1 5EF6D542
+P 9850 1800
+AR Path="/5E1D7472/5EF6D542" Ref="RGB_C7R?"  Part="1" 
+AR Path="/5E49A860/5EF6D542" Ref="RGB_C7R1"  Part="1" 
+F 0 "RGB_C7R1" H 9850 2297 50  0000 C CNN
+F 1 "CB2_1" H 9850 2206 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 11700 1900 50  0001 L CNN
+F 3 "" H 11700 1800 50  0001 L CNN
+F 4 "" H 11700 1700 50  0001 L CNN "Description"
+F 5 "" H 11700 1600 50  0001 L CNN "Height"
+F 6 "" H 11700 1500 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 11700 1400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 11700 1300 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 11700 1200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9850 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 4800 0    50   Input ~ 0
+SW4
+Text GLabel 1950 4900 0    50   Input ~ 0
+SW5
+Text GLabel 1950 4700 0    50   Input ~ 0
+SW6
+Wire Wire Line
+	4050 3050 4250 3050
+Wire Wire Line
+	4050 1800 4250 1800
+Wire Wire Line
+	5250 1800 5450 1800
+Wire Wire Line
+	5450 1800 5450 1200
+Wire Wire Line
+	5250 3050 5450 3050
+Wire Wire Line
+	6450 1800 6650 1800
+Wire Wire Line
+	6450 3050 6650 3050
+Wire Wire Line
+	7650 1800 7850 1800
+Wire Wire Line
+	7650 3050 7850 3050
+Wire Wire Line
+	8850 3050 9050 3050
+Wire Wire Line
+	8850 1800 9050 1800
+Wire Wire Line
+	9050 1800 9050 1200
+Wire Wire Line
+	10050 1800 10250 1800
+Wire Wire Line
+	10050 3050 10250 3050
+Wire Wire Line
+	4700 4800 4700 4300
+Wire Wire Line
+	4600 4900 4600 4100
+Wire Wire Line
+	4600 4100 4850 4100
+Wire Wire Line
+	4700 4300 4850 4300
+Wire Wire Line
+	4800 4500 4850 4500
+Wire Wire Line
+	3650 4100 3400 4100
+Wire Wire Line
+	10250 4300 10050 4300
+Wire Wire Line
+	8850 4300 9050 4300
+Wire Wire Line
+	9400 4100 9650 4100
+Wire Wire Line
+	9500 4300 9650 4300
+Wire Wire Line
+	9600 4500 9650 4500
+Wire Wire Line
+	8200 4100 8200 4900
+Wire Wire Line
+	8450 4100 8200 4100
+Wire Wire Line
+	8300 4300 8300 4800
+Wire Wire Line
+	8450 4300 8300 4300
+Wire Wire Line
+	8400 4500 8450 4500
+Wire Wire Line
+	8400 4700 8400 4500
+$Comp
+L Device:LED_ARGB RGB_C6R?
+U 1 1 5EF6D55A
+P 8650 4300
+AR Path="/5E1D7472/5EF6D55A" Ref="RGB_C6R?"  Part="1" 
+AR Path="/5E49A860/5EF6D55A" Ref="RGB_C6R3"  Part="1" 
+F 0 "RGB_C6R3" H 8650 4797 50  0000 C CNN
+F 1 "CB1_7" H 8650 4706 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 10500 4400 50  0001 L CNN
+F 3 "" H 10500 4300 50  0001 L CNN
+F 4 "" H 10500 4200 50  0001 L CNN "Description"
+F 5 "" H 10500 4100 50  0001 L CNN "Height"
+F 6 "" H 10500 4000 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 10500 3900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 10500 3800 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 10500 3700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C7R?
+U 1 1 5EF6D52A
+P 9850 4300
+AR Path="/5E1D7472/5EF6D52A" Ref="RGB_C7R?"  Part="1" 
+AR Path="/5E49A860/5EF6D52A" Ref="RGB_C7R3"  Part="1" 
+F 0 "RGB_C7R3" H 9850 4797 50  0000 C CNN
+F 1 "CB2_3" H 9850 4706 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 11700 4400 50  0001 L CNN
+F 3 "" H 11700 4300 50  0001 L CNN
+F 4 "" H 11700 4200 50  0001 L CNN "Description"
+F 5 "" H 11700 4100 50  0001 L CNN "Height"
+F 6 "" H 11700 4000 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 11700 3900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 11700 3800 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 11700 3700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4300 7850 4300
+Wire Wire Line
+	7000 4100 7000 4900
+Wire Wire Line
+	7000 4100 7250 4100
+Wire Wire Line
+	7100 4300 7100 4800
+Wire Wire Line
+	7100 4300 7250 4300
+Wire Wire Line
+	7200 4700 7200 4500
+Wire Wire Line
+	7200 4500 7250 4500
+$Comp
+L Device:LED_ARGB RGB_C5R?
+U 1 1 5FD9307E
+P 7450 4300
+AR Path="/5E1D7472/5FD9307E" Ref="RGB_C5R?"  Part="1" 
+AR Path="/5E49A860/5FD9307E" Ref="RGB_C5R3"  Part="1" 
+F 0 "RGB_C5R3" H 7450 4797 50  0000 C CNN
+F 1 "7-DEF" H 7450 4706 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 9300 4400 50  0001 L CNN
+F 3 "" H 9300 4300 50  0001 L CNN
+F 4 "" H 9300 4200 50  0001 L CNN "Description"
+F 5 "" H 9300 4100 50  0001 L CNN "Height"
+F 6 "" H 9300 4000 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 9300 3900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 9300 3800 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 9300 3700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4300 6650 4300
+Wire Wire Line
+	6000 4500 6000 4700
+Wire Wire Line
+	6050 4500 6000 4500
+Wire Wire Line
+	5900 4300 5900 4800
+Wire Wire Line
+	6050 4300 5900 4300
+Wire Wire Line
+	5800 4100 6050 4100
+Wire Wire Line
+	5800 4900 5800 4100
+Wire Wire Line
+	5250 4300 5450 4300
+Wire Wire Line
+	4800 4500 4800 4700
+Wire Wire Line
+	4250 4300 4050 4300
+Wire Wire Line
+	3400 4900 3400 4100
+Wire Wire Line
+	3500 4300 3500 4800
+Wire Wire Line
+	3500 4300 3650 4300
+Wire Wire Line
+	3600 4500 3600 4700
+Wire Wire Line
+	3600 4500 3650 4500
+$Comp
+L Device:LED_ARGB RGB_C4R?
+U 1 1 5EA9ECE7
+P 6250 4300
+AR Path="/5E1D7472/5EA9ECE7" Ref="RGB_C4R?"  Part="1" 
+AR Path="/5E49A860/5EA9ECE7" Ref="RGB_C4R3"  Part="1" 
+F 0 "RGB_C4R3" H 6250 4797 50  0000 C CNN
+F 1 "3-DEF" H 6250 4706 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 8100 4400 50  0001 L CNN
+F 3 "" H 8100 4300 50  0001 L CNN
+F 4 "" H 8100 4200 50  0001 L CNN "Description"
+F 5 "" H 8100 4100 50  0001 L CNN "Height"
+F 6 "" H 8100 4000 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 8100 3900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 8100 3800 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 8100 3700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C3R?
+U 1 1 5EA61AA2
+P 5050 4300
+AR Path="/5E1D7472/5EA61AA2" Ref="RGB_C3R?"  Part="1" 
+AR Path="/5E49A860/5EA61AA2" Ref="RGB_C3R3"  Part="1" 
+F 0 "RGB_C3R3" H 5050 4797 50  0000 C CNN
+F 1 "11-ABC" H 5050 4706 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 6900 4400 50  0001 L CNN
+F 3 "" H 6900 4300 50  0001 L CNN
+F 4 "" H 6900 4200 50  0001 L CNN "Description"
+F 5 "" H 6900 4100 50  0001 L CNN "Height"
+F 6 "" H 6900 4000 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 6900 3900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 6900 3800 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 6900 3700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ARGB RGB_C2R?
+U 1 1 5E3DE520
+P 3850 4300
+AR Path="/5E1D7472/5E3DE520" Ref="RGB_C2R?"  Part="1" 
+AR Path="/5E49A860/5E3DE520" Ref="RGB_C2R3"  Part="1" 
+F 0 "RGB_C2R3" H 3850 4797 50  0000 C CNN
+F 1 "7-ABC" H 3850 4706 50  0000 C CNN
+F 2 "Keyboard 2:LEDSC160X160X070-4N_reversible" H 5700 4400 50  0001 L CNN
+F 3 "" H 5700 4300 50  0001 L CNN
+F 4 "" H 5700 4200 50  0001 L CNN "Description"
+F 5 "" H 5700 4100 50  0001 L CNN "Height"
+F 6 "" H 5700 4000 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 5700 3900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kingbright" H 5700 3800 50  0001 L CNN "Manufacturer_Name"
+F 9 "APTF1616SEJ3ZGGVBDC" H 5700 3700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3850 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 4700
+Connection ~ 3500 4800
+Connection ~ 3400 4900
+Wire Wire Line
+	3400 4900 4600 4900
+Wire Wire Line
+	9600 4500 9600 4700
+Wire Wire Line
+	3600 4700 4800 4700
+Wire Wire Line
+	9500 4800 9500 4300
+Wire Wire Line
+	3500 4800 4700 4800
+Wire Wire Line
+	9400 4100 9400 4900
+Connection ~ 8400 4700
+Wire Wire Line
+	8400 4700 9600 4700
+Connection ~ 8300 4800
+Wire Wire Line
+	8300 4800 9500 4800
+Connection ~ 8200 4900
+Wire Wire Line
+	8200 4900 9400 4900
+Connection ~ 7200 4700
+Wire Wire Line
+	7200 4700 8400 4700
+Connection ~ 7100 4800
+Wire Wire Line
+	7100 4800 8300 4800
+Connection ~ 7000 4900
+Wire Wire Line
+	7000 4900 8200 4900
+Connection ~ 6000 4700
+Wire Wire Line
+	6000 4700 7200 4700
+Connection ~ 5900 4800
+Wire Wire Line
+	5900 4800 7100 4800
+Connection ~ 5800 4900
+Wire Wire Line
+	5800 4900 7000 4900
+Connection ~ 4800 4700
+Wire Wire Line
+	4800 4700 6000 4700
+Connection ~ 4700 4800
+Wire Wire Line
+	4700 4800 5900 4800
+Connection ~ 4600 4900
+Wire Wire Line
+	4600 4900 5800 4900
+Wire Wire Line
+	10250 3050 10250 4300
+Connection ~ 10250 3050
+Connection ~ 8400 3450
+Wire Wire Line
+	8400 3450 9600 3450
+Connection ~ 8300 3550
+Wire Wire Line
+	8300 3550 9500 3550
+Connection ~ 8200 3650
+Wire Wire Line
+	8200 3650 9400 3650
+Wire Wire Line
+	9050 3050 9050 4300
+Connection ~ 9050 3050
+Wire Wire Line
+	7850 3050 7850 4300
+Connection ~ 7850 3050
+Connection ~ 7200 3450
+Wire Wire Line
+	7200 3450 8400 3450
+Connection ~ 7100 3550
+Wire Wire Line
+	7100 3550 8300 3550
+Connection ~ 7000 3650
+Wire Wire Line
+	7000 3650 8200 3650
+Wire Wire Line
+	6650 3050 6650 4300
+Connection ~ 6650 3050
+Connection ~ 6000 3450
+Wire Wire Line
+	6000 3450 7200 3450
+Connection ~ 5900 3550
+Wire Wire Line
+	5900 3550 7100 3550
+Connection ~ 5800 3650
+Wire Wire Line
+	5800 3650 7000 3650
+Wire Wire Line
+	5450 3050 5450 4300
+Connection ~ 5450 3050
+Connection ~ 4800 3450
+Wire Wire Line
+	4800 3450 6000 3450
+Connection ~ 4700 3550
+Wire Wire Line
+	4700 3550 5900 3550
+Connection ~ 4600 3650
+Wire Wire Line
+	4600 3650 5800 3650
+Wire Wire Line
+	4250 3050 4250 4300
+Connection ~ 4250 3050
+Connection ~ 3600 3450
+Wire Wire Line
+	3600 3450 4800 3450
+Connection ~ 3500 3550
+Wire Wire Line
+	3500 3550 4700 3550
+Connection ~ 3400 3650
+Wire Wire Line
+	3400 3650 4600 3650
+Wire Wire Line
+	9500 2300 9500 1800
+Wire Wire Line
+	9050 1800 9050 3050
+Connection ~ 9050 1800
+Wire Wire Line
+	10250 1200 10250 1800
+Connection ~ 10250 1800
+Wire Wire Line
+	10250 1800 10250 3050
+Wire Wire Line
+	8400 2200 8400 2000
+Connection ~ 8400 2200
+Wire Wire Line
+	8300 1800 8300 2300
+Connection ~ 8300 2300
+Wire Wire Line
+	8300 2300 9500 2300
+Wire Wire Line
+	8200 2400 8200 1600
+Connection ~ 8200 2400
+Wire Wire Line
+	8200 2400 9400 2400
+Wire Wire Line
+	7850 1800 7850 3050
+Connection ~ 7850 1800
+Wire Wire Line
+	7200 2000 7200 2200
+Connection ~ 7200 2200
+Wire Wire Line
+	7200 2200 8400 2200
+Wire Wire Line
+	7100 2300 7100 1800
+Connection ~ 7100 2300
+Wire Wire Line
+	7100 2300 8300 2300
+Wire Wire Line
+	7000 2400 7000 1600
+Connection ~ 7000 2400
+Wire Wire Line
+	7000 2400 8200 2400
+Wire Wire Line
+	6650 1800 6650 3050
+Connection ~ 6650 1800
+Wire Wire Line
+	5450 1800 5450 3050
+Connection ~ 5450 1800
+Wire Wire Line
+	4250 1800 4250 3050
+Connection ~ 4250 1800
+Wire Wire Line
+	3600 2000 3600 2200
+Connection ~ 3600 2200
+Wire Wire Line
+	3500 1800 3500 2300
+Connection ~ 3500 2300
+Wire Wire Line
+	3500 2300 4700 2300
+Wire Wire Line
+	3400 1600 3400 2400
+Connection ~ 3400 2400
+Wire Wire Line
+	3400 2400 4600 2400
+Wire Wire Line
+	4600 1600 4600 2400
+Connection ~ 4600 2400
+Wire Wire Line
+	4600 2400 5800 2400
+Wire Wire Line
+	4800 2000 4800 2200
+Connection ~ 4800 2200
+Wire Wire Line
+	4800 2200 6000 2200
+Wire Wire Line
+	3600 2200 4800 2200
+Wire Wire Line
+	4700 1800 4700 2300
+Connection ~ 4700 2300
+Wire Wire Line
+	4700 2300 5900 2300
+Wire Wire Line
+	6000 2000 6000 2200
+Connection ~ 6000 2200
+Wire Wire Line
+	6000 2200 7200 2200
+Wire Wire Line
+	5900 1800 5900 2300
+Connection ~ 5900 2300
+Wire Wire Line
+	5900 2300 7100 2300
+Wire Wire Line
+	5800 1600 5800 2400
+Connection ~ 5800 2400
+Wire Wire Line
+	5800 2400 7000 2400
+Text GLabel 7850 1200 1    50   Input ~ 0
+CS3
+Text GLabel 4250 1200 1    50   Input ~ 0
+CS6
+Wire Wire Line
+	9600 2200 9600 2000
+Wire Wire Line
+	8400 2200 9600 2200
+Wire Wire Line
+	9400 2400 9400 1600
+Wire Wire Line
+	1950 4700 3600 4700
+Wire Wire Line
+	1950 4800 3500 4800
+Wire Wire Line
+	1950 4900 3400 4900
+Wire Wire Line
+	1950 3650 3400 3650
+Wire Wire Line
+	1950 3550 3500 3550
+Wire Wire Line
+	1950 3450 3600 3450
+Wire Wire Line
+	2000 2200 3600 2200
+Wire Wire Line
+	2000 2300 3500 2300
+Wire Wire Line
+	2000 2400 3400 2400
+$EndSCHEMATC
