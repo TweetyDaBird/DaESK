@@ -28,3 +28,8 @@
  
  Current Version:
  v0.9x - Almost ready for prototype PCB order
+ 
+ ToDo:
+ * DaESK-3R, USB-C
+ * BOM
+ * Silkscreen
