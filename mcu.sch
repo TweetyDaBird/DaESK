@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "Da.E.S.K - MCU"
-Date "2020-09-29"
-Rev "0.91"
+Date "2020-10-13"
+Rev "0.95"
 Comp "Markus Knutsson <markus.knutsson@tweety.se>"
 Comment1 "https://github.com/TweetyDaBird"
 Comment2 "Licensed under CERN-OHL-S v2 or any later version"
@@ -44,6 +44,10 @@ F 0 "R10" V 3730 1200 50  0000 C CNN
 F 1 "4k7" V 3650 1200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 1200 50  0001 C CNN
 F 3 "" H 3650 1200 50  0001 C CNN
+F 4 "1" H 3650 1200 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 3650 1200 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3GEYJ472V" H 3650 1200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3GEYJ472V" H 3650 1200 50  0001 C CNN "Mouser Part Number"
 	1    3650 1200
 	1    0    0    1   
 $EndComp
@@ -55,9 +59,13 @@ AR Path="/5D8219F0/5E9A5065" Ref="R?"  Part="1"
 AR Path="/5D6CC2CC/5E9A5065" Ref="R?"  Part="1" 
 AR Path="/5E135D8F/5E9A5065" Ref="R9"  Part="1" 
 F 0 "R9" V 3580 1200 50  0000 C CNN
-F 1 "4K7" V 3500 1200 50  0000 C CNN
+F 1 "4k7" V 3500 1200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 1200 50  0001 C CNN
 F 3 "" H 3500 1200 50  0001 C CNN
+F 4 "1" H 3500 1200 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 3500 1200 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3GEYJ472V" H 3500 1200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3GEYJ472V" H 3500 1200 50  0001 C CNN "Mouser Part Number"
 	1    3500 1200
 	-1   0    0    -1  
 $EndComp
@@ -83,6 +91,10 @@ F 0 "C9" H 1625 2250 50  0000 L CNN
 F 1 "0u1" H 1625 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1638 2000 50  0001 C CNN
 F 3 "" H 1600 2150 50  0001 C CNN
+F 4 "1" H 1600 2150 50  0001 C CNN "Fält4"
+F 5 "AVX" H 1600 2150 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 1600 2150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 1600 2150 50  0001 C CNN "Mouser Part Number"
 	1    1600 2150
 	0    1    1    0   
 $EndComp
@@ -179,7 +191,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2450 3800 2450
 Wire Wire Line
-	3400 1550 3800 1550
+	3400 3050 3800 3050
 Wire Wire Line
 	3400 2150 3800 2150
 Wire Wire Line
@@ -239,8 +251,12 @@ AR Path="/5D6CC2CC/5D8BBA56" Ref="C?"  Part="1"
 AR Path="/5E135D8F/5D8BBA56" Ref="C10"  Part="1" 
 F 0 "C10" H 1625 2950 50  0000 L CNN
 F 1 "1u" H 1625 2750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1638 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 2700 50  0001 C CNN
 F 3 "" H 1600 2850 50  0001 C CNN
+F 4 "1" H 1600 2850 50  0001 C CNN "Fält4"
+F 5 "Samsung Electro-Mechanics" H 1600 2850 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21B105KBFNNNG" H 1600 2850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "187-CL21B105KBFNNNG" H 1600 2850 50  0001 C CNN "Mouser Part Number"
 	1    1600 2850
 	0    1    1    0   
 $EndComp
@@ -255,6 +271,10 @@ F 0 "C5" H 1175 1600 50  0000 L CNN
 F 1 "22p" H 1175 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1188 1350 50  0001 C CNN
 F 3 "" H 1150 1500 50  0001 C CNN
+F 4 "1" H 1150 1500 50  0001 C CNN "Fält4"
+F 5 "AVX" H 1150 1500 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035A220JAT2A" H 1150 1500 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035A220J" H 1150 1500 50  0001 C CNN "Mouser Part Number"
 	1    1150 1500
 	0    1    -1   0   
 $EndComp
@@ -269,6 +289,10 @@ F 0 "C6" H 1175 2050 50  0000 L CNN
 F 1 "22p" H 1175 1850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1188 1800 50  0001 C CNN
 F 3 "" H 1150 1950 50  0001 C CNN
+F 4 "1" H 1150 1950 50  0001 C CNN "Fält4"
+F 5 "AVX" H 1150 1950 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035A220JAT2A" H 1150 1950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035A220J" H 1150 1950 50  0001 C CNN "Mouser Part Number"
 	1    1150 1950
 	0    1    1    0   
 $EndComp
@@ -276,7 +300,7 @@ Text GLabel 3800 2150 2    50   Input ~ 0
 ROW_1
 Text GLabel 3800 2050 2    50   Input ~ 0
 ROW_3
-Text GLabel 3800 3450 2    50   Input ~ 0
+Text GLabel 3800 3150 2    50   Input ~ 0
 ROW_4
 Wire Wire Line
 	9750 2550 9500 2550
@@ -293,6 +317,10 @@ F 0 "R14" V 10130 3300 50  0000 C CNN
 F 1 "20k" V 10050 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9980 3300 50  0001 C CNN
 F 3 "" H 10050 3300 50  0001 C CNN
+F 4 "1" H 10050 3300 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 10050 3300 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3GEYJ203V" H 10050 3300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3GEYJ203V" H 10050 3300 50  0001 C CNN "Mouser Part Number"
 	1    10050 3300
 	-1   0    0    1   
 $EndComp
@@ -322,6 +350,10 @@ F 0 "C15" H 9358 954 50  0000 R CNN
 F 1 "0u1" H 9358 1045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9450 1000 50  0001 C CNN
 F 3 "~" H 9450 1000 50  0001 C CNN
+F 4 "1" H 9450 1000 50  0001 C CNN "Fält4"
+F 5 "AVX" H 9450 1000 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 9450 1000 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 9450 1000 50  0001 C CNN "Mouser Part Number"
 	1    9450 1000
 	-1   0    0    1   
 $EndComp
@@ -357,6 +389,10 @@ F 0 "C12" H 2009 3196 50  0000 R CNN
 F 1 "0u1" H 2009 3105 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 3150 50  0001 C CNN
 F 3 "~" H 2100 3150 50  0001 C CNN
+F 4 "1" H 2100 3150 50  0001 C CNN "Fält4"
+F 5 "AVX" H 2100 3150 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 2100 3150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 2100 3150 50  0001 C CNN "Mouser Part Number"
 	1    2100 3150
 	1    0    0    -1  
 $EndComp
@@ -371,6 +407,10 @@ F 0 "U2" H 2800 3150 50  0000 C CNN
 F 1 "ATmega32U4" H 2800 2950 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias" H 2800 3050 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3900 4150 50  0001 C CNN
+F 4 "ATMEGA32U4RC-MU" H 2800 3050 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "1" H 2800 3050 50  0001 C CNN "Fält4"
+F 6 "Atmel" H 2800 3050 50  0001 C CNN "Manufacturer_Name"
+F 7 "556-ATMEGA32U4RC-MU" H 2800 3050 50  0001 C CNN "Mouser Part Number"
 	1    2800 3050
 	1    0    0    -1  
 $EndComp
@@ -410,6 +450,10 @@ F 0 "C7" H 1275 4350 50  0000 L CNN
 F 1 "0u1" H 1275 4150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 4100 50  0001 C CNN
 F 3 "" H 1250 4250 50  0001 C CNN
+F 4 "1" H 1250 4250 50  0001 C CNN "Fält4"
+F 5 "AVX" H 1250 4250 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 1250 4250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 1250 4250 50  0001 C CNN "Mouser Part Number"
 	1    1250 4250
 	-1   0    0    -1  
 $EndComp
@@ -452,6 +496,10 @@ F 0 "C8" H 1525 4350 50  0000 L CNN
 F 1 "0u1" H 1525 4150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 4100 50  0001 C CNN
 F 3 "" H 1500 4250 50  0001 C CNN
+F 4 "1" H 1500 4250 50  0001 C CNN "Fält4"
+F 5 "AVX" H 1500 4250 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 1500 4250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 1500 4250 50  0001 C CNN "Mouser Part Number"
 	1    1500 4250
 	-1   0    0    -1  
 $EndComp
@@ -498,6 +546,10 @@ F 0 "C4" H 1025 4350 50  0000 L CNN
 F 1 "0u1" H 1025 4150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1038 4100 50  0001 C CNN
 F 3 "" H 1000 4250 50  0001 C CNN
+F 4 "1" H 1000 4250 50  0001 C CNN "Fält4"
+F 5 "AVX" H 1000 4250 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 1000 4250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 1000 4250 50  0001 C CNN "Mouser Part Number"
 	1    1000 4250
 	-1   0    0    -1  
 $EndComp
@@ -509,9 +561,13 @@ AR Path="/5D8219F0/600A3369" Ref="R?"  Part="1"
 AR Path="/5D6CC2CC/600A3369" Ref="R?"  Part="1" 
 AR Path="/5E135D8F/600A3369" Ref="R6"  Part="1" 
 F 0 "R6" V 1930 1050 50  0000 C CNN
-F 1 "10K" V 1850 1050 50  0000 C CNN
+F 1 "10k" V 1850 1050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 1050 50  0001 C CNN
 F 3 "" H 1850 1050 50  0001 C CNN
+F 4 "1" H 1850 1050 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 1850 1050 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF1002V" H 1850 1050 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3GEYJ103V" H 1850 1050 50  0001 C CNN "Mouser Part Number"
 	1    1850 1050
 	1    0    0    1   
 $EndComp
@@ -523,11 +579,15 @@ AR Path="/5E61BB87" Ref="SW?"  Part="1"
 AR Path="/5D6CC2CC/5E61BB87" Ref="SW?"  Part="1" 
 AR Path="/5E135D8F/5E61BB87" Ref="SW2"  Part="1" 
 F 0 "SW2" H 1200 1485 50  0000 C CNN
-F 1 "SW_Push" H 1200 1394 50  0000 C CNN
-F 2 "Keyboard Library:2-pin_reset_switch" H 1200 1400 50  0001 C CNN
+F 1 "Reset" H 1200 1394 50  0000 C CNN
+F 2 "SamacSys_Parts:EVPBB2A9B000" H 1200 1400 50  0001 C CNN
 F 3 "~" H 1200 1400 50  0001 C CNN
+F 4 "1" H 1200 1200 50  0001 C CNN "Fält4"
+F 5 "C&K Switches" H 1200 1200 50  0001 C CNN "Manufacturer_Name"
+F 6 "PTS635SH43LFS" H 1200 1200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "611-PTS635SH43LFS" H 1200 1200 50  0001 C CNN "Mouser Part Number"
 	1    1200 1200
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1400 1200 1600 1200
@@ -560,8 +620,12 @@ AR Path="/5D6CC2CC/5E91E258" Ref="C?"  Part="1"
 AR Path="/5E135D8F/5E91E258" Ref="C11"  Part="1" 
 F 0 "C11" H 2025 4350 50  0000 L CNN
 F 1 "4u7" H 2025 4150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2038 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2038 4100 50  0001 C CNN
 F 3 "" H 2000 4250 50  0001 C CNN
+F 4 "1" H 2000 4250 50  0001 C CNN "Fält4"
+F 5 "TDK" H 2000 4250 50  0001 C CNN "Manufacturer_Name"
+F 6 "C2012X7R1H475K125AC" H 2000 4250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "810-C2012X7R475K125C" H 2000 4250 50  0001 C CNN "Mouser Part Number"
 	1    2000 4250
 	-1   0    0    -1  
 $EndComp
@@ -589,6 +653,10 @@ F 0 "R11" V 3880 3650 50  0000 C CNN
 F 1 "10k" V 3800 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 3650 50  0001 C CNN
 F 3 "" H 3800 3650 50  0001 C CNN
+F 4 "1" H 3800 3650 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 3800 3650 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF1002V" H 3800 3650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3GEYJ103V" H 3800 3650 50  0001 C CNN "Mouser Part Number"
 	1    3800 3650
 	0    1    -1   0   
 $EndComp
@@ -646,7 +714,7 @@ Wire Wire Line
 	1500 4500 1750 4500
 Wire Wire Line
 	1500 4000 1750 4000
-NoConn ~ 3800 1550
+NoConn ~ 3800 3050
 Wire Wire Line
 	3800 2950 3400 2950
 $Comp
@@ -667,6 +735,7 @@ F 6 "870-IS31FL3733-TQLS4" H 10550 3550 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS31FL3733-TQLS4" H 10550 3450 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Integrated Silicon Solution Inc." H 10550 3350 50  0001 L CNN "Manufacturer_Name"
 F 9 "IS31FL3733-TQLS4" H 10550 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1" H 8900 3450 50  0001 C CNN "Fält4"
 	1    8900 3450
 	-1   0    0    -1  
 $EndComp
@@ -772,6 +841,10 @@ F 0 "C16" H 9759 2296 50  0000 R CNN
 F 1 "0u47" H 9759 2205 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9850 2250 50  0001 C CNN
 F 3 "~" H 9850 2250 50  0001 C CNN
+F 4 "1" H 9850 2250 50  0001 C CNN "Fält4"
+F 5 "Taiyo Yuden" H 9850 2250 50  0001 C CNN "Manufacturer_Name"
+F 6 "UMK107B7474KA-TR" H 9850 2250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "963-UMK107B7474KA-TR" H 9850 2250 50  0001 C CNN "Mouser Part Number"
 	1    9850 2250
 	0    1    1    0   
 $EndComp
@@ -889,6 +962,10 @@ F 0 "R15" V 10330 3300 50  0000 C CNN
 F 1 "100k" V 10250 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10180 3300 50  0001 C CNN
 F 3 "" H 10250 3300 50  0001 C CNN
+F 4 "1" H 10250 3300 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 10250 3300 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF1003V" H 10250 3300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3EKF1003V" H 10250 3300 50  0001 C CNN "Mouser Part Number"
 	1    10250 3300
 	-1   0    0    1   
 $EndComp
@@ -902,6 +979,10 @@ F 0 "C20" H 9709 1046 50  0000 R CNN
 F 1 "0u47" H 9709 955 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9800 1000 50  0001 C CNN
 F 3 "~" H 9800 1000 50  0001 C CNN
+F 4 "1" H 9800 1000 50  0001 C CNN "Fält4"
+F 5 "Taiyo Yuden" H 9800 1000 50  0001 C CNN "Manufacturer_Name"
+F 6 "UMK107B7474KA-TR" H 9800 1000 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "963-UMK107B7474KA-TR" H 9800 1000 50  0001 C CNN "Mouser Part Number"
 	1    9800 1000
 	-1   0    0    1   
 $EndComp
@@ -915,6 +996,10 @@ F 0 "C18" H 9358 1304 50  0000 R CNN
 F 1 "0u1" H 9358 1395 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9450 1350 50  0001 C CNN
 F 3 "~" H 9450 1350 50  0001 C CNN
+F 4 "1" H 9450 1350 50  0001 C CNN "Fält4"
+F 5 "AVX" H 9450 1350 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 9450 1350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 9450 1350 50  0001 C CNN "Mouser Part Number"
 	1    9450 1350
 	-1   0    0    1   
 $EndComp
@@ -928,6 +1013,10 @@ F 0 "C21" H 9709 1396 50  0000 R CNN
 F 1 "0u47" H 9709 1305 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9800 1350 50  0001 C CNN
 F 3 "~" H 9800 1350 50  0001 C CNN
+F 4 "1" H 9800 1350 50  0001 C CNN "Fält4"
+F 5 "Taiyo Yuden" H 9800 1350 50  0001 C CNN "Manufacturer_Name"
+F 6 "UMK107B7474KA-TR" H 9800 1350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "963-UMK107B7474KA-TR" H 9800 1350 50  0001 C CNN "Mouser Part Number"
 	1    9800 1350
 	-1   0    0    1   
 $EndComp
@@ -941,6 +1030,10 @@ F 0 "C19" H 9358 1704 50  0000 R CNN
 F 1 "0u1" H 9358 1795 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9450 1750 50  0001 C CNN
 F 3 "~" H 9450 1750 50  0001 C CNN
+F 4 "1" H 9450 1750 50  0001 C CNN "Fält4"
+F 5 "AVX" H 9450 1750 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 9450 1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 9450 1750 50  0001 C CNN "Mouser Part Number"
 	1    9450 1750
 	-1   0    0    1   
 $EndComp
@@ -954,6 +1047,10 @@ F 0 "C22" H 9709 1796 50  0000 R CNN
 F 1 "0u47" H 9709 1705 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9800 1750 50  0001 C CNN
 F 3 "~" H 9800 1750 50  0001 C CNN
+F 4 "1" H 9800 1750 50  0001 C CNN "Fält4"
+F 5 "Taiyo Yuden" H 9800 1750 50  0001 C CNN "Manufacturer_Name"
+F 6 "UMK107B7474KA-TR" H 9800 1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "963-UMK107B7474KA-TR" H 9800 1750 50  0001 C CNN "Mouser Part Number"
 	1    9800 1750
 	-1   0    0    1   
 $EndComp
@@ -1028,6 +1125,10 @@ F 0 "R16" V 10530 3300 50  0000 C CNN
 F 1 "100k" V 10450 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10380 3300 50  0001 C CNN
 F 3 "" H 10450 3300 50  0001 C CNN
+F 4 "1" H 10450 3300 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 10450 3300 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF1003V" H 10450 3300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3EKF1003V" H 10450 3300 50  0001 C CNN "Mouser Part Number"
 	1    10450 3300
 	-1   0    0    1   
 $EndComp
@@ -1056,6 +1157,10 @@ F 0 "R17" V 10330 2450 50  0000 C CNN
 F 1 "100k" V 10250 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10180 2450 50  0001 C CNN
 F 3 "" H 10250 2450 50  0001 C CNN
+F 4 "1" H 10250 2450 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 10250 2450 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF1003V" H 10250 2450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3EKF1003V" H 10250 2450 50  0001 C CNN "Mouser Part Number"
 	1    10250 2450
 	1    0    0    -1  
 $EndComp
@@ -1083,6 +1188,10 @@ F 0 "C2" H 1775 4350 50  0000 L CNN
 F 1 "0u1" H 1775 4150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 4100 50  0001 C CNN
 F 3 "" H 1750 4250 50  0001 C CNN
+F 4 "1" H 1750 4250 50  0001 C CNN "Fält4"
+F 5 "AVX" H 1750 4250 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 1750 4250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 1750 4250 50  0001 C CNN "Mouser Part Number"
 	1    1750 4250
 	-1   0    0    -1  
 $EndComp
@@ -1132,17 +1241,25 @@ F 0 "R13" V 6730 850 50  0000 C CNN
 F 1 "33" V 6650 850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 850 50  0001 C CNN
 F 3 "" H 6650 850 50  0001 C CNN
+F 4 "1" H 6650 850 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 6650 850 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF33R0V" H 6650 850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3EKF33R0V" H 6650 850 50  0001 C CNN "Mouser Part Number"
 	1    6650 850 
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:LED_Small POWER_LED1
+L Device:LED_Small LED_1
 U 1 1 5F07D500
 P 6350 850
-F 0 "POWER_LED1" H 6350 1085 50  0000 C CNN
-F 1 "LED_Small" H 6350 994 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6350 850 50  0001 C CNN
+F 0 "LED_1" H 6350 1085 50  0000 C CNN
+F 1 "PWR_LED" H 6350 994 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6350 850 50  0001 C CNN
 F 3 "~" V 6350 850 50  0001 C CNN
+F 4 "1" H 6350 850 50  0001 C CNN "Fält4"
+F 5 "Kingbright" H 6350 850 50  0001 C CNN "Manufacturer_Name"
+F 6 "APT1608EC" H 6350 850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "604-APT1608EC" H 6350 850 50  0001 C CNN "Mouser Part Number"
 	1    6350 850 
 	-1   0    0    1   
 $EndComp
@@ -1230,8 +1347,12 @@ AR Path="/5D6CC2CC/5F4E23C2" Ref="C?"  Part="1"
 AR Path="/5E135D8F/5F4E23C2" Ref="C17"  Part="1" 
 F 0 "C17" H 10525 1450 50  0000 L CNN
 F 1 "22uF 10V" H 10525 1250 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 10538 1200 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 10538 1200 50  0001 C CNN
 F 3 "" H 10500 1350 50  0001 C CNN
+F 4 "AVX" H 10500 1350 50  0001 C CNN "Manufacturer_Name"
+F 5 "TPSA226K010T0900" H 10500 1350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "581-TPSA226K010T0900" H 10500 1350 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 10500 1350 50  0001 C CNN "Fält4"
 	1    10500 1350
 	1    0    0    -1  
 $EndComp
@@ -1246,36 +1367,38 @@ Wire Wire Line
 Connection ~ 9800 900 
 Text Notes 6350 1850 0    50   ~ 0
 JTAG Connector
-Text Notes 4600 2950 0    50   ~ 0
+Text Notes 4600 3250 0    50   ~ 0
 Bottom Layer
 Wire Wire Line
-	4950 3250 5100 3250
+	4950 3500 5100 3500
 $Comp
 L Jumper:SolderJumper_2_Open JP3
 U 1 1 63B54FE8
-P 4800 3450
-F 0 "JP3" H 4800 3655 50  0000 C CNN
-F 1 "Left" H 4800 3564 50  0000 C CNN
-F 2 "Keyboard 2:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4800 3450 50  0001 C CNN
-F 3 "~" H 4800 3450 50  0001 C CNN
-	1    4800 3450
+P 4800 3700
+F 0 "JP3" H 4800 3905 50  0000 C CNN
+F 1 "Left" H 4800 3814 50  0000 C CNN
+F 2 "Keyboard 2:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4800 3700 50  0001 C CNN
+F 3 "~" H 4800 3700 50  0001 C CNN
+F 4 "0" H 4800 3700 50  0001 C CNN "Fält4"
+F 5 "Jumper" H 4800 3700 50  0001 C CNN "Manufacturer_Part_Number"
+	1    4800 3700
 	1    0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 63B722DE
-P 5100 3250
+P 5100 3500
 AR Path="/5D8219F0/63B722DE" Ref="#PWR?"  Part="1" 
 AR Path="/5D6CC2CC/63B722DE" Ref="#PWR?"  Part="1" 
 AR Path="/5DEF6A4C/63B722DE" Ref="#PWR?"  Part="1" 
 AR Path="/5D3D0542/63B722DE" Ref="#PWR?"  Part="1" 
 AR Path="/5E49A860/63B722DE" Ref="#PWR?"  Part="1" 
 AR Path="/5E135D8F/63B722DE" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 5100 3100 50  0001 C CNN
-F 1 "VCC" H 5100 3400 50  0000 C CNN
-F 2 "" H 5100 3250 50  0001 C CNN
-F 3 "" H 5100 3250 50  0001 C CNN
-	1    5100 3250
+F 0 "#PWR026" H 5100 3350 50  0001 C CNN
+F 1 "VCC" H 5100 3650 50  0000 C CNN
+F 2 "" H 5100 3500 50  0001 C CNN
+F 3 "" H 5100 3500 50  0001 C CNN
+	1    5100 3500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1290,6 +1413,10 @@ F 0 "R5" V 1530 2650 50  0000 C CNN
 F 1 "22" V 1450 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 2650 50  0001 C CNN
 F 3 "" H 1450 2650 50  0001 C CNN
+F 4 "1" H 1450 2650 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 1450 2650 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3GEYJ220V" H 1450 2650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3GEYJ220V" H 1450 2650 50  0001 C CNN "Mouser Part Number"
 	1    1450 2650
 	0    1    1    0   
 $EndComp
@@ -1305,6 +1432,10 @@ F 0 "R4" V 1530 2550 50  0000 C CNN
 F 1 "22" V 1450 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 2550 50  0001 C CNN
 F 3 "" H 1450 2550 50  0001 C CNN
+F 4 "1" H 1450 2550 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 1450 2550 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3GEYJ220V" H 1450 2550 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3GEYJ220V" H 1450 2550 50  0001 C CNN "Mouser Part Number"
 	1    1450 2550
 	0    -1   -1   0   
 $EndComp
@@ -1318,47 +1449,47 @@ Wire Wire Line
 	1150 2650 1300 2650
 Wire Wire Line
 	3650 1350 3650 2850
-Text Notes 4650 3750 0    50   ~ 0
+Text Notes 4650 4000 0    50   ~ 0
 Top Layer
 Wire Wire Line
-	4950 3450 5100 3450
+	4950 3700 5100 3700
 $Comp
 L power:GND #PWR?
 U 1 1 63B71ABA
-P 5100 3450
+P 5100 3700
 AR Path="/5D8219F0/63B71ABA" Ref="#PWR?"  Part="1" 
 AR Path="/5D6CC2CC/63B71ABA" Ref="#PWR?"  Part="1" 
 AR Path="/5DEF6A4C/63B71ABA" Ref="#PWR?"  Part="1" 
 AR Path="/5D3D0542/63B71ABA" Ref="#PWR?"  Part="1" 
 AR Path="/5E49A860/63B71ABA" Ref="#PWR?"  Part="1" 
 AR Path="/5E135D8F/63B71ABA" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 5100 3200 50  0001 C CNN
-F 1 "GND" H 5100 3300 50  0000 C CNN
-F 2 "" H 5100 3450 50  0001 C CNN
-F 3 "" H 5100 3450 50  0001 C CNN
-	1    5100 3450
+F 0 "#PWR027" H 5100 3450 50  0001 C CNN
+F 1 "GND" H 5100 3550 50  0000 C CNN
+F 2 "" H 5100 3700 50  0001 C CNN
+F 3 "" H 5100 3700 50  0001 C CNN
+	1    5100 3700
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4650 3450 4350 3450
+	4650 3700 4350 3700
 $Comp
 L Jumper:SolderJumper_2_Open JP4
 U 1 1 63B545FB
-P 4800 3250
-F 0 "JP4" H 4800 3455 50  0000 C CNN
-F 1 "Right" H 4800 3364 50  0000 C CNN
-F 2 "Keyboard 2:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4800 3250 50  0001 C CNN
-F 3 "~" H 4800 3250 50  0001 C CNN
-	1    4800 3250
+P 4800 3500
+F 0 "JP4" H 4800 3705 50  0000 C CNN
+F 1 "Right" H 4800 3614 50  0000 C CNN
+F 2 "Keyboard 2:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4800 3500 50  0001 C CNN
+F 3 "~" H 4800 3500 50  0001 C CNN
+F 4 "0" H 4800 3500 50  0001 C CNN "Fält4"
+F 5 "Jumper" H 4800 3500 50  0001 C CNN "Manufacturer_Part_Number"
+	1    4800 3500
 	1    0    0    -1  
 $EndComp
-Text Label 4450 3450 0    50   ~ 0
+Text Label 4450 3700 0    50   ~ 0
 HAND
-Wire Wire Line
-	4350 3450 4350 3250
-Text GLabel 3800 3350 2    50   Input ~ 0
+Text GLabel 3800 3450 2    50   Input ~ 0
 COL_TH2
-Text GLabel 3800 3150 2    50   Input ~ 0
+Text GLabel 3800 3350 2    50   Input ~ 0
 COL_TH1
 NoConn ~ 3800 3750
 NoConn ~ 3800 2250
@@ -1382,6 +1513,7 @@ F 6 "81-XRCGB16M000FXN00R" H 2750 1700 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-XRCGB16M000FXN00R" H 2750 1600 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Murata Electronics" H 2750 1500 50  0001 L CNN "Manufacturer_Name"
 F 9 "XRCGB16M000FXN00R0" H 2750 1400 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1" H 1300 2000 50  0001 C CNN "Fält4"
 	1    1300 2000
 	0    -1   -1   0   
 $EndComp
@@ -1395,6 +1527,8 @@ F 0 "J3" H 6780 2192 50  0000 L CNN
 F 1 "Conn_01x06" H 6780 2101 50  0000 L CNN
 F 2 "Keyboard 2:PinHeader_2x03_P1.27mm_Vertical" H 6700 2200 50  0001 C CNN
 F 3 "~" H 6700 2200 50  0001 C CNN
+F 4 "0" H 6700 2200 50  0001 C CNN "Fält4"
+F 5 "Pinheader" H 6700 2200 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6700 2200
 	1    0    0    -1  
 $EndComp
@@ -1405,9 +1539,11 @@ L Connector:AudioJack4 J1
 U 1 1 5F7A49E7
 P 6500 3850
 F 0 "J1" H 6170 3733 50  0000 R CNN
-F 1 "AudioJack4" H 6170 3824 50  0000 R CNN
-F 2 "Keyboard 2:TRRS-PJ-320A-reversible" H 6500 3850 50  0001 C CNN
+F 1 "TRRS" H 6170 3824 50  0000 R CNN
+F 2 "Keyboard Library:TRRS-PJ-320A-reversible" H 6500 3850 50  0001 C CNN
 F 3 "~" H 6500 3850 50  0001 C CNN
+F 4 "PJ-320A" H 6500 3850 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "1" H 6500 3850 50  0001 C CNN "Fält4"
 	1    6500 3850
 	-1   0    0    1   
 $EndComp
@@ -1442,15 +1578,14 @@ F 3 "" H 6050 4800 50  0001 C CNN
 	1    6050 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 6050 3850 0    50   Input ~ 0
-I2C+
 Text GLabel 6050 3750 0    50   Input ~ 0
+I2C+
+Text GLabel 6050 3850 0    50   Input ~ 0
 I2C-
 Wire Wire Line
 	6050 3750 6300 3750
-Connection ~ 4350 3250
 Wire Wire Line
-	4350 3250 4650 3250
+	4350 3500 4650 3500
 Wire Wire Line
 	3800 4450 3400 4450
 Wire Wire Line
@@ -1514,6 +1649,8 @@ F 0 "JP1" H 9650 3905 50  0000 C CNN
 F 1 "Right" H 9650 3814 50  0000 C CNN
 F 2 "Keyboard 2:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9650 3700 50  0001 C CNN
 F 3 "~" H 9650 3700 50  0001 C CNN
+F 4 "0" H 9650 3700 50  0001 C CNN "Fält4"
+F 5 "Jumper" H 9650 3700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9650 3700
 	0    -1   -1   0   
 $EndComp
@@ -1525,6 +1662,8 @@ F 0 "JP2" H 9800 3905 50  0000 C CNN
 F 1 "Left" H 9800 3814 50  0000 C CNN
 F 2 "Keyboard 2:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9800 3700 50  0001 C CNN
 F 3 "~" H 9800 3700 50  0001 C CNN
+F 4 "0" H 9800 3700 50  0001 C CNN "Fält4"
+F 5 "Jumper" H 9800 3700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9800 3700
 	0    1    -1   0   
 $EndComp
@@ -1536,6 +1675,8 @@ F 0 "JP5" H 6950 4724 50  0000 C CNN
 F 1 "Jumper_3_Open" H 6950 4633 50  0000 C CNN
 F 2 "Keyboard 2:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 6950 4500 50  0001 C CNN
 F 3 "~" H 6950 4500 50  0001 C CNN
+F 4 "0" H 6950 4500 50  0001 C CNN "Fält4"
+F 5 "Jumper" H 6950 4500 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6950 4500
 	1    0    0    -1  
 $EndComp
@@ -1547,6 +1688,8 @@ F 0 "JP6" H 6050 4724 50  0000 C CNN
 F 1 "Jumper_3_Open" H 6050 4633 50  0000 C CNN
 F 2 "Keyboard 2:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 6050 4500 50  0001 C CNN
 F 3 "~" H 6050 4500 50  0001 C CNN
+F 4 "0" H 6050 4500 50  0001 C CNN "Fält4"
+F 5 "Jumper" H 6050 4500 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6050 4500
 	1    0    0    -1  
 $EndComp
@@ -1575,11 +1718,8 @@ S
 Wire Wire Line
 	3800 3150 3400 3150
 Wire Wire Line
-	3400 3050 3800 3050
-Wire Wire Line
 	8150 3350 8300 3350
 NoConn ~ 8150 3350
-NoConn ~ 3800 3050
 Text Notes 5900 3400 0    50   ~ 0
 TRRS connector dual sided
 Wire Wire Line
@@ -1673,6 +1813,10 @@ F 0 "ZD1" H 5350 6416 50  0000 C CNN
 F 1 "SS1P3L-M3/84A" H 5350 6325 50  0000 C CNN
 F 2 "DIO_SS3P3-M3:84A" H 5350 6200 50  0001 C CNN
 F 3 "~" H 5350 6200 50  0001 C CNN
+F 4 "SS1P3L-M3/84A" H 5350 6200 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Vishay" H 5350 6200 50  0001 C CNN "Manufacturer_Name"
+F 6 "625-SS1P3L-M3/84A" H 5350 6200 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 5350 6200 50  0001 C CNN "Fält4"
 	1    5350 6200
 	-1   0    0    -1  
 $EndComp
@@ -1710,8 +1854,12 @@ AR Path="/5F6ACAA0/5FB25354" Ref="F?"  Part="1"
 AR Path="/5F577A4E/5FB25354" Ref="F?"  Part="1" 
 F 0 "F1" V 4375 6200 50  0000 C CNN
 F 1 "500mA" V 4466 6200 50  0000 C CNN
-F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 6000 50  0001 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 4650 6000 50  0001 L CNN
 F 3 "~" H 4600 6200 50  0001 C CNN
+F 4 "04000025WR" H 4600 6200 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "LittleFuse" H 4600 6200 50  0001 C CNN "Manufacturer_Name"
+F 6 "576-04000025WR" H 4600 6200 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 4600 6200 50  0001 C CNN "Fält4"
 	1    4600 6200
 	0    1    1    0   
 $EndComp
@@ -1765,41 +1913,47 @@ AR Path="/5F6ACAA0/5FB25369" Ref="C?"  Part="1"
 AR Path="/5F577A4E/5FB25369" Ref="C?"  Part="1" 
 F 0 "C3" H 4368 6496 50  0000 L CNN
 F 1 "10uF" H 4368 6405 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 4288 6300 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 4288 6300 50  0001 C CNN
 F 3 "~" H 4250 6450 50  0001 C CNN
+F 4 "AVX" H 4250 6450 50  0001 C CNN "Manufacturer_Name"
+F 5 "TAJA106M010RNJ" H 4250 6450 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "581-TAJA106M010R" H 4250 6450 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 4250 6450 50  0001 C CNN "Fält4"
 	1    4250 6450
 	1    0    0    -1  
 $EndComp
-Connection ~ 4250 6750
+Connection ~ 4250 6700
 Wire Wire Line
-	4250 6950 4250 6750
+	4250 6950 4250 6700
 Wire Wire Line
 	4000 6950 4250 6950
 Wire Wire Line
-	4250 6750 4000 6750
-Text GLabel 3500 6750 0    50   Input ~ 0
+	4250 6700 4000 6700
+Text GLabel 3500 6700 0    50   Input ~ 0
 D+
 Text GLabel 3500 6950 0    50   Input ~ 0
 D-
 $Comp
 L Keyboard_Library:SMD-RES-VARISTOR-5V-28V(0603) VR1
 U 1 1 5FB25378
-P 3800 6750
+P 3800 6700
 AR Path="/5E135D8F/5FB25378" Ref="VR1"  Part="1" 
 AR Path="/5F6ACAA0/5FB25378" Ref="VR?"  Part="1" 
 AR Path="/5FB25378" Ref="VR?"  Part="1" 
 AR Path="/5F577A4E/5FB25378" Ref="VR?"  Part="1" 
-F 0 "VR1" H 3800 7065 50  0000 C CNN
-F 1 "CG0603MLC-05E" H 3800 6974 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 6750 50  0001 L BNN
-F 3 "SMD-RES-VARISTOR-5V-28V(0603)" H 3800 6750 50  0001 L BNN
-F 4 "" H 3800 6750 50  0001 L BNN "Fält4"
-F 5 "652-CG0603MLC-05E" H 3800 6750 50  0001 C CNN "Mouser Part Number"
-	1    3800 6750
+F 0 "VR1" H 3800 7015 50  0000 C CNN
+F 1 "CG0603MLC-05E" H 3800 6924 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 6700 50  0001 L BNN
+F 3 "SMD-RES-VARISTOR-5V-28V(0603)" H 3800 6700 50  0001 L BNN
+F 4 "1" H 3800 6700 50  0001 L BNN "Fält4"
+F 5 "652-CG0603MLC-05E" H 3800 6700 50  0001 C CNN "Mouser Part Number"
+F 6 "CG0603MLC-05E" H 3800 6700 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Bourns" H 3800 6700 50  0001 C CNN "Manufacturer_Name"
+	1    3800 6700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 6750 3500 6750
+	3600 6700 3500 6700
 $Comp
 L Keyboard_Library:SMD-RES-VARISTOR-5V-28V(0603) VR2
 U 1 1 5FB25381
@@ -1812,8 +1966,10 @@ F 0 "VR2" H 3800 6800 50  0000 C CNN
 F 1 "CG0603MLC-05E" H 3800 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 6950 50  0001 L BNN
 F 3 "SMD-RES-VARISTOR-5V-28V(0603)" H 3800 6950 50  0001 L BNN
-F 4 "" H 3800 6950 50  0001 L BNN "Fält4"
+F 4 "1" H 3800 6950 50  0001 L BNN "Fält4"
 F 5 "652-CG0603MLC-05E" H 3800 6950 50  0001 C CNN "Mouser Part Number"
+F 6 "CG0603MLC-05E" H 3800 6950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Bourns" H 3800 6950 50  0001 C CNN "Manufacturer_Name"
 	1    3800 6950
 	-1   0    0    -1  
 $EndComp
@@ -1852,8 +2008,12 @@ F 0 "R1" V 1630 7300 50  0000 C CNN
 F 1 "330" V 1550 7300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1480 7300 50  0001 C CNN
 F 3 "" H 1550 7300 50  0001 C CNN
+F 4 "1" H 1550 7300 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 1550 7300 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF3300V" H 1550 7300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3EKF3300V" H 1550 7300 50  0001 C CNN "Mouser Part Number"
 	1    1550 7300
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -1865,10 +2025,13 @@ AR Path="/5E135D8F/5FB25395" Ref="C1"  Part="1"
 AR Path="/5F6ACAA0/5FB25395" Ref="C?"  Part="1" 
 AR Path="/5F577A4E/5FB25395" Ref="C?"  Part="1" 
 F 0 "C1" H 1700 7600 50  0000 L CNN
-F 1 "0u1F" H 1575 7400 50  0000 L CNN
+F 1 "0u1" H 1575 7400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1588 7350 50  0001 C CNN
 F 3 "" H 1550 7500 50  0001 C CNN
-F 4 "6V3" H 1700 7500 50  0001 C CNN "Fält4"
+F 4 "1" H 1700 7500 50  0001 C CNN "Fält4"
+F 5 "AVX" H 1550 7500 50  0001 C CNN "Manufacturer_Name"
+F 6 "06035C104JAT2A" H 1550 7500 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "581-06035C104JAT2A" H 1550 7500 50  0001 C CNN "Mouser Part Number"
 	1    1550 7500
 	0    -1   1    0   
 $EndComp
@@ -1901,6 +2064,10 @@ F 0 "R2" V 2530 5950 50  0000 C CNN
 F 1 "5k1" V 2450 5950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 5950 50  0001 C CNN
 F 3 "" H 2450 5950 50  0001 C CNN
+F 4 "1" H 2450 5950 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 2450 5950 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF5101V" H 2450 5950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3EKF5101V" H 2450 5950 50  0001 C CNN "Mouser Part Number"
 	1    2450 5950
 	0    1    -1   0   
 $EndComp
@@ -1919,6 +2086,10 @@ F 0 "R3" V 2530 6050 50  0000 C CNN
 F 1 "5k1" V 2450 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 6050 50  0001 C CNN
 F 3 "" H 2450 6050 50  0001 C CNN
+F 4 "1" H 2450 6050 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 2450 6050 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF5101V" H 2450 6050 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3EKF5101V" H 2450 6050 50  0001 C CNN "Mouser Part Number"
 	1    2450 6050
 	0    1    1    0   
 $EndComp
@@ -1963,6 +2134,9 @@ F 0 "USB1" H 1650 6850 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1807 7126 50  0000 C CNN
 F 2 "Keyboard Library:HRO-TYPE-C-31-M-14" H 1850 6350 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1850 6350 50  0001 C CNN
+F 4 "HRO-TYPE-C-31-M-14" H 1700 6350 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "1" H 1700 6350 50  0001 C CNN "Fält4"
+F 6 "HRO" H 1700 6350 50  0001 C CNN "Manufacturer_Name"
 	1    1700 6350
 	1    0    0    -1  
 $EndComp
@@ -1995,7 +2169,7 @@ Connection ~ 4250 6200
 Wire Wire Line
 	3750 6200 4250 6200
 Wire Wire Line
-	4250 6600 4250 6750
+	4250 6600 4250 6700
 Wire Wire Line
 	4450 6200 4250 6200
 Text GLabel 8150 5900 3    50   Input ~ 0
@@ -2016,6 +2190,8 @@ F 0 "J5" V 8150 5950 50  0000 C CNN
 F 1 "Conn_01x11" V 8150 5450 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x11_P1.27mm_Vertical" H 8050 5700 50  0001 C CNN
 F 3 "~" H 8050 5700 50  0001 C CNN
+F 4 "0" H 8050 5700 50  0001 C CNN "Fält4"
+F 5 "Pinheader" H 8050 5700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8050 5700
 	0    -1   -1   0   
 $EndComp
@@ -2074,6 +2250,8 @@ F 0 "J7" V 10300 5800 50  0000 C CNN
 F 1 "Conn_01x06" V 10300 5450 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 10200 5650 50  0001 C CNN
 F 3 "~" H 10200 5650 50  0001 C CNN
+F 4 "0" H 10200 5650 50  0001 C CNN "Fält4"
+F 5 "Pinheader" H 10200 5650 50  0001 C CNN "Manufacturer_Part_Number"
 	1    10200 5650
 	0    -1   -1   0   
 $EndComp
@@ -2087,4 +2265,90 @@ Wire Wire Line
 Connection ~ 1400 1500
 Wire Wire Line
 	1400 1500 2050 1500
+Wire Wire Line
+	4500 1550 4450 1550
+$Comp
+L Device:R R?
+U 1 1 5F8BDBBC
+P 4650 1550
+AR Path="/5D8219F0/5F8BDBBC" Ref="R?"  Part="1" 
+AR Path="/5D6CC2CC/5F8BDBBC" Ref="R?"  Part="1" 
+AR Path="/5E135D8F/5F8BDBBC" Ref="R7"  Part="1" 
+F 0 "R7" V 4730 1550 50  0000 C CNN
+F 1 "33" V 4650 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 1550 50  0001 C CNN
+F 3 "" H 4650 1550 50  0001 C CNN
+F 4 "1" H 4650 1550 50  0001 C CNN "Fält4"
+F 5 "Panasonic" H 4650 1550 50  0001 C CNN "Manufacturer_Name"
+F 6 "ERJ-3EKF33R0V" H 4650 1550 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "667-ERJ-3EKF33R0V" H 4650 1550 50  0001 C CNN "Mouser Part Number"
+	1    4650 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small LED_2
+U 1 1 5F8BDBC2
+P 4350 1550
+F 0 "LED_2" H 4350 1785 50  0000 C CNN
+F 1 "STATUS_LED" H 4350 1694 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4350 1550 50  0001 C CNN
+F 3 "~" V 4350 1550 50  0001 C CNN
+F 4 "1" H 4350 1550 50  0001 C CNN "Fält4"
+F 5 "Kingbright" H 4350 1550 50  0001 C CNN "Manufacturer_Name"
+F 6 "APT1608EC" H 4350 1550 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "604-APT1608EC" H 4350 1550 50  0001 C CNN "Mouser Part Number"
+	1    4350 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1550 4850 1550
+Wire Wire Line
+	4350 3250 4350 3500
+Connection ~ 4350 3500
+Wire Wire Line
+	4350 3500 4350 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5F9F2D74
+P 4850 1550
+AR Path="/5D8219F0/5F9F2D74" Ref="#PWR?"  Part="1" 
+AR Path="/5D6CC2CC/5F9F2D74" Ref="#PWR?"  Part="1" 
+AR Path="/5DEF6A4C/5F9F2D74" Ref="#PWR?"  Part="1" 
+AR Path="/5E49A860/5F9F2D74" Ref="#PWR?"  Part="1" 
+AR Path="/5E135D8F/5F9F2D74" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 4850 1300 50  0001 C CNN
+F 1 "GND" H 4850 1400 50  0000 C CNN
+F 2 "" H 4850 1550 50  0001 C CNN
+F 3 "" H 4850 1550 50  0001 C CNN
+	1    4850 1550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4250 1550 3400 1550
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FB99783
+P 1200 750
+AR Path="/5FB99783" Ref="SW?"  Part="1" 
+AR Path="/5D6CC2CC/5FB99783" Ref="SW?"  Part="1" 
+AR Path="/5E135D8F/5FB99783" Ref="SW1"  Part="1" 
+F 0 "SW1" H 1200 1035 50  0000 C CNN
+F 1 "Reset" H 1200 944 50  0000 C CNN
+F 2 "SamacSys_Parts:EVPBB2A9B000" H 1200 950 50  0001 C CNN
+F 3 "~" H 1200 950 50  0001 C CNN
+F 4 "1" H 1200 750 50  0001 C CNN "Fält4"
+F 5 "C&K Switches" H 1200 750 50  0001 C CNN "Manufacturer_Name"
+F 6 "PTS635SH43LFS" H 1200 750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "611-PTS635SH43LFS" H 1200 750 50  0001 C CNN "Mouser Part Number"
+	1    1200 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 750  1400 1200
+Connection ~ 1400 1200
+Wire Wire Line
+	1000 1200 1000 750 
+Connection ~ 1000 1200
+Text Label 3850 1550 0    50   ~ 0
+LED
 $EndSCHEMATC

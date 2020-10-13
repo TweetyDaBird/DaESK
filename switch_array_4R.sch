@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "Da.E.S.K.4R - 4 Row Switch Array"
-Date "2020-09-29"
-Rev "0.91"
+Date "2020-10-13"
+Rev "0.95"
 Comp "Markus Knutsson <markus.knutsson@tweety.se>"
 Comment1 "https://github.com/TweetyDaBird"
 Comment2 "Licensed under CERN-OHL-S v2 or any later version"
@@ -27,8 +27,11 @@ U 1 1 5E8C2D7B
 P 2900 2000
 F 0 "C2R1" H 2900 2285 50  0000 C CNN
 F 1 "SW_Push" H 2900 2194 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 2900 2200 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 2900 2200 50  0001 C CNN
 F 3 "~" H 2900 2200 50  0001 C CNN
+F 4 "1" H 2900 2000 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 2900 2000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 2900 2000 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2900 2000
 	1    0    0    -1  
 $EndComp
@@ -38,8 +41,11 @@ U 1 1 5E8C2D81
 P 2900 2850
 F 0 "C2R3" H 2900 3135 50  0000 C CNN
 F 1 "SW_Push" H 2900 3044 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 2900 3050 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 2900 3050 50  0001 C CNN
 F 3 "~" H 2900 3050 50  0001 C CNN
+F 4 "1" H 2900 2850 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 2900 2850 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 2900 2850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2900 2850
 	1    0    0    -1  
 $EndComp
@@ -49,8 +55,11 @@ U 1 1 5E8C2D87
 P 2900 3250
 F 0 "C2R4" H 2900 3535 50  0000 C CNN
 F 1 "SW_Push" H 2900 3444 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 2900 3450 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 2900 3450 50  0001 C CNN
 F 3 "~" H 2900 3450 50  0001 C CNN
+F 4 "1" H 2900 3250 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 2900 3250 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 2900 3250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2900 3250
 	1    0    0    -1  
 $EndComp
@@ -71,8 +80,11 @@ U 1 1 5E8C2D9B
 P 2900 2400
 F 0 "C2R2" H 2900 2685 50  0000 C CNN
 F 1 "SW_Push" H 2900 2594 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 2900 2600 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 2900 2600 50  0001 C CNN
 F 3 "~" H 2900 2600 50  0001 C CNN
+F 4 "1" H 2900 2400 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 2900 2400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 2900 2400 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2900 2400
 	1    0    0    -1  
 $EndComp
@@ -98,6 +110,10 @@ F 0 "D1" H 3300 3000 50  0000 L CNN
 F 1 "BAV70S" H 3250 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3350 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3350 2800 50  0001 C CNN
+F 4 "BAV70S,135" H 3350 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 3350 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 3350 2800 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 3350 2800 50  0001 C CNN "Fält4"
 	2    3350 2800
 	0    -1   1    0   
 $EndComp
@@ -113,8 +129,11 @@ U 1 1 5E903E24
 P 4050 2000
 F 0 "C3R1" H 4050 2285 50  0000 C CNN
 F 1 "SW_Push" H 4050 2194 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 4050 2200 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 4050 2200 50  0001 C CNN
 F 3 "~" H 4050 2200 50  0001 C CNN
+F 4 "1" H 4050 2000 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 4050 2000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 4050 2000 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4050 2000
 	1    0    0    -1  
 $EndComp
@@ -124,8 +143,11 @@ U 1 1 5E903E2A
 P 4050 2850
 F 0 "C3R3" H 4050 3135 50  0000 C CNN
 F 1 "SW_Push" H 4050 3044 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 4050 3050 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 4050 3050 50  0001 C CNN
 F 3 "~" H 4050 3050 50  0001 C CNN
+F 4 "1" H 4050 2850 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 4050 2850 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 4050 2850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4050 2850
 	1    0    0    -1  
 $EndComp
@@ -135,8 +157,11 @@ U 1 1 5E903E30
 P 4050 3250
 F 0 "C3R4" H 4050 3535 50  0000 C CNN
 F 1 "SW_Push" H 4050 3444 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 4050 3450 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 4050 3450 50  0001 C CNN
 F 3 "~" H 4050 3450 50  0001 C CNN
+F 4 "1" H 4050 3250 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 4050 3250 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 4050 3250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4050 3250
 	1    0    0    -1  
 $EndComp
@@ -148,6 +173,10 @@ F 0 "D2" H 4450 2300 50  0000 L CNN
 F 1 "BAV70S" H 4400 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4500 2100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4500 2100 50  0001 C CNN
+F 4 "BAV70S,135" H 4500 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 4500 2100 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 4500 2100 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 4500 2100 50  0001 C CNN "Fält4"
 	1    4500 2100
 	0    -1   1    0   
 $EndComp
@@ -172,8 +201,11 @@ U 1 1 5E903E44
 P 4050 2400
 F 0 "C3R2" H 4050 2685 50  0000 C CNN
 F 1 "SW_Push" H 4050 2594 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 4050 2600 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 4050 2600 50  0001 C CNN
 F 3 "~" H 4050 2600 50  0001 C CNN
+F 4 "1" H 4050 2400 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 4050 2400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 4050 2400 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4050 2400
 	1    0    0    -1  
 $EndComp
@@ -203,6 +235,10 @@ F 0 "D2" H 4450 3000 50  0000 L CNN
 F 1 "BAV70S" H 4400 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4500 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4500 2800 50  0001 C CNN
+F 4 "BAV70S,135" H 4500 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 4500 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 4500 2800 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 4500 2800 50  0001 C CNN "Fält4"
 	2    4500 2800
 	0    -1   1    0   
 $EndComp
@@ -224,6 +260,10 @@ F 0 "D1" H 3300 2300 50  0000 L CNN
 F 1 "BAV70S" H 3250 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3350 2100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3350 2100 50  0001 C CNN
+F 4 "BAV70S,135" H 3350 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 3350 2100 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 3350 2100 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 3350 2100 50  0001 C CNN "Fält4"
 	1    3350 2100
 	0    -1   1    0   
 $EndComp
@@ -235,8 +275,11 @@ U 1 1 5E95EDD6
 P 5200 2000
 F 0 "C4R1" H 5200 2285 50  0000 C CNN
 F 1 "SW_Push" H 5200 2194 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 5200 2200 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 5200 2200 50  0001 C CNN
 F 3 "~" H 5200 2200 50  0001 C CNN
+F 4 "1" H 5200 2000 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 5200 2000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 5200 2000 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5200 2000
 	1    0    0    -1  
 $EndComp
@@ -246,8 +289,11 @@ U 1 1 5E95EDDC
 P 5200 2850
 F 0 "C4R3" H 5200 3135 50  0000 C CNN
 F 1 "SW_Push" H 5200 3044 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 5200 3050 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 5200 3050 50  0001 C CNN
 F 3 "~" H 5200 3050 50  0001 C CNN
+F 4 "1" H 5200 2850 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 5200 2850 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 5200 2850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5200 2850
 	1    0    0    -1  
 $EndComp
@@ -257,8 +303,11 @@ U 1 1 5E95EDE2
 P 5200 3250
 F 0 "C4R4" H 5200 3535 50  0000 C CNN
 F 1 "SW_Push" H 5200 3444 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 5200 3450 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 5200 3450 50  0001 C CNN
 F 3 "~" H 5200 3450 50  0001 C CNN
+F 4 "1" H 5200 3250 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 5200 3250 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 5200 3250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5200 3250
 	1    0    0    -1  
 $EndComp
@@ -270,6 +319,10 @@ F 0 "D3" H 5600 2300 50  0000 L CNN
 F 1 "BAV70S" H 5550 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5650 2100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5650 2100 50  0001 C CNN
+F 4 "BAV70S,135" H 5650 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 5650 2100 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 5650 2100 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 5650 2100 50  0001 C CNN "Fält4"
 	1    5650 2100
 	0    -1   1    0   
 $EndComp
@@ -294,8 +347,11 @@ U 1 1 5E95EDF6
 P 5200 2400
 F 0 "C4R2" H 5200 2685 50  0000 C CNN
 F 1 "SW_Push" H 5200 2594 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 5200 2600 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 5200 2600 50  0001 C CNN
 F 3 "~" H 5200 2600 50  0001 C CNN
+F 4 "1" H 5200 2400 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 5200 2400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 5200 2400 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5200 2400
 	1    0    0    -1  
 $EndComp
@@ -325,6 +381,10 @@ F 0 "D3" H 5600 3000 50  0000 L CNN
 F 1 "BAV70S" H 5550 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5650 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5650 2800 50  0001 C CNN
+F 4 "BAV70S,135" H 5650 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 5650 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 5650 2800 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 5650 2800 50  0001 C CNN "Fält4"
 	2    5650 2800
 	0    -1   1    0   
 $EndComp
@@ -354,8 +414,11 @@ AR Path="/5E181991/5ECD1E13" Ref="C5R1"  Part="1"
 AR Path="/5E49A860/5ECD1E13" Ref="C5R?"  Part="1" 
 F 0 "C5R1" H 6350 2285 50  0000 C CNN
 F 1 "SW_Push" H 6350 2194 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 6350 2200 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 6350 2200 50  0001 C CNN
 F 3 "~" H 6350 2200 50  0001 C CNN
+F 4 "1" H 6350 2000 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 6350 2000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 6350 2000 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6350 2000
 	1    0    0    -1  
 $EndComp
@@ -367,8 +430,11 @@ AR Path="/5E181991/5ECD1E19" Ref="C5R3"  Part="1"
 AR Path="/5E49A860/5ECD1E19" Ref="C5R?"  Part="1" 
 F 0 "C5R3" H 6350 3135 50  0000 C CNN
 F 1 "SW_Push" H 6350 3044 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 6350 3050 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 6350 3050 50  0001 C CNN
 F 3 "~" H 6350 3050 50  0001 C CNN
+F 4 "1" H 6350 2850 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 6350 2850 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 6350 2850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6350 2850
 	1    0    0    -1  
 $EndComp
@@ -380,8 +446,11 @@ AR Path="/5E181991/5ECD1E1F" Ref="C5R4"  Part="1"
 AR Path="/5E49A860/5ECD1E1F" Ref="C5R?"  Part="1" 
 F 0 "C5R4" H 6350 3535 50  0000 C CNN
 F 1 "SW_Push" H 6350 3444 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 6350 3450 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 6350 3450 50  0001 C CNN
 F 3 "~" H 6350 3450 50  0001 C CNN
+F 4 "1" H 6350 3250 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 6350 3250 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 6350 3250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6350 3250
 	1    0    0    -1  
 $EndComp
@@ -395,6 +464,10 @@ F 0 "D5" H 6750 2300 50  0000 L CNN
 F 1 "BAV70S" H 6700 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6800 2100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6800 2100 50  0001 C CNN
+F 4 "BAV70S,135" H 6800 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 6800 2100 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 6800 2100 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 6800 2100 50  0001 C CNN "Fält4"
 	1    6800 2100
 	0    -1   1    0   
 $EndComp
@@ -416,8 +489,11 @@ AR Path="/5E181991/5ECD1E30" Ref="C5R2"  Part="1"
 AR Path="/5E49A860/5ECD1E30" Ref="C5R?"  Part="1" 
 F 0 "C5R2" H 6350 2685 50  0000 C CNN
 F 1 "SW_Push" H 6350 2594 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 6350 2600 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 6350 2600 50  0001 C CNN
 F 3 "~" H 6350 2600 50  0001 C CNN
+F 4 "1" H 6350 2400 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 6350 2400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 6350 2400 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6350 2400
 	1    0    0    -1  
 $EndComp
@@ -449,6 +525,10 @@ F 0 "D5" H 6750 3000 50  0000 L CNN
 F 1 "BAV70S" H 6700 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6800 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 6800 2800 50  0001 C CNN
+F 4 "BAV70S,135" H 6800 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 6800 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 6800 2800 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 6800 2800 50  0001 C CNN "Fält4"
 	2    6800 2800
 	0    -1   1    0   
 $EndComp
@@ -489,8 +569,11 @@ AR Path="/5E181991/5EA2F014" Ref="C6R1"  Part="1"
 AR Path="/5E49A860/5EA2F014" Ref="C6R?"  Part="1" 
 F 0 "C6R1" H 7500 2285 50  0000 C CNN
 F 1 "SW_Push" H 7500 2194 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 7500 2200 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 7500 2200 50  0001 C CNN
 F 3 "~" H 7500 2200 50  0001 C CNN
+F 4 "1" H 7500 2000 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 7500 2000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 7500 2000 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7500 2000
 	1    0    0    -1  
 $EndComp
@@ -502,8 +585,11 @@ AR Path="/5E181991/5EA2F01A" Ref="C6R3"  Part="1"
 AR Path="/5E49A860/5EA2F01A" Ref="C6R?"  Part="1" 
 F 0 "C6R3" H 7500 3135 50  0000 C CNN
 F 1 "SW_Push" H 7500 3044 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 7500 3050 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 7500 3050 50  0001 C CNN
 F 3 "~" H 7500 3050 50  0001 C CNN
+F 4 "1" H 7500 2850 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 7500 2850 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 7500 2850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7500 2850
 	1    0    0    -1  
 $EndComp
@@ -515,8 +601,11 @@ AR Path="/5E181991/5EA2F020" Ref="C6R4"  Part="1"
 AR Path="/5E49A860/5EA2F020" Ref="C6R?"  Part="1" 
 F 0 "C6R4" H 7500 3535 50  0000 C CNN
 F 1 "SW_Push" H 7500 3444 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 7500 3450 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 7500 3450 50  0001 C CNN
 F 3 "~" H 7500 3450 50  0001 C CNN
+F 4 "1" H 7500 3250 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 7500 3250 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 7500 3250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7500 3250
 	1    0    0    -1  
 $EndComp
@@ -530,6 +619,10 @@ F 0 "D6" H 7900 2300 50  0000 L CNN
 F 1 "BAV70S" H 7850 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7950 2100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7950 2100 50  0001 C CNN
+F 4 "BAV70S,135" H 7950 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 7950 2100 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 7950 2100 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 7950 2100 50  0001 C CNN "Fält4"
 	1    7950 2100
 	0    -1   1    0   
 $EndComp
@@ -556,8 +649,11 @@ AR Path="/5E181991/5EA2F034" Ref="C6R2"  Part="1"
 AR Path="/5E49A860/5EA2F034" Ref="C6R?"  Part="1" 
 F 0 "C6R2" H 7500 2685 50  0000 C CNN
 F 1 "SW_Push" H 7500 2594 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 7500 2600 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 7500 2600 50  0001 C CNN
 F 3 "~" H 7500 2600 50  0001 C CNN
+F 4 "1" H 7500 2400 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 7500 2400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 7500 2400 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7500 2400
 	1    0    0    -1  
 $EndComp
@@ -587,6 +683,10 @@ F 0 "D6" H 7900 3000 50  0000 L CNN
 F 1 "BAV70S" H 7850 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7950 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7950 2800 50  0001 C CNN
+F 4 "BAV70S,135" H 7950 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 7950 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 7950 2800 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 7950 2800 50  0001 C CNN "Fält4"
 	2    7950 2800
 	0    -1   1    0   
 $EndComp
@@ -604,8 +704,11 @@ AR Path="/5E181991/5EA2F050" Ref="C7R1"  Part="1"
 AR Path="/5E49A860/5EA2F050" Ref="C7R?"  Part="1" 
 F 0 "C7R1" H 8650 2285 50  0000 C CNN
 F 1 "SW_Push" H 8650 2194 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 8650 2200 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 8650 2200 50  0001 C CNN
 F 3 "~" H 8650 2200 50  0001 C CNN
+F 4 "1" H 8650 2000 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 8650 2000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 8650 2000 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8650 2000
 	1    0    0    -1  
 $EndComp
@@ -617,8 +720,11 @@ AR Path="/5E181991/5EA2F056" Ref="C7R3"  Part="1"
 AR Path="/5E49A860/5EA2F056" Ref="C7R?"  Part="1" 
 F 0 "C7R3" H 8650 3135 50  0000 C CNN
 F 1 "SW_Push" H 8650 3044 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 8650 3050 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 8650 3050 50  0001 C CNN
 F 3 "~" H 8650 3050 50  0001 C CNN
+F 4 "1" H 8650 2850 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 8650 2850 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 8650 2850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8650 2850
 	1    0    0    -1  
 $EndComp
@@ -630,8 +736,11 @@ AR Path="/5E181991/5EA2F05C" Ref="C7R4"  Part="1"
 AR Path="/5E49A860/5EA2F05C" Ref="C7R?"  Part="1" 
 F 0 "C7R4" H 8650 3535 50  0000 C CNN
 F 1 "SW_Push" H 8650 3444 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 8650 3450 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 8650 3450 50  0001 C CNN
 F 3 "~" H 8650 3450 50  0001 C CNN
+F 4 "1" H 8650 3250 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 8650 3250 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 8650 3250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8650 3250
 	1    0    0    -1  
 $EndComp
@@ -645,6 +754,10 @@ F 0 "D7" H 9050 2300 50  0000 L CNN
 F 1 "BAV70S" H 9000 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9100 2100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9100 2100 50  0001 C CNN
+F 4 "BAV70S,135" H 9100 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 9100 2100 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 9100 2100 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 9100 2100 50  0001 C CNN "Fält4"
 	1    9100 2100
 	0    -1   1    0   
 $EndComp
@@ -671,8 +784,11 @@ AR Path="/5E181991/5EA2F070" Ref="C7R2"  Part="1"
 AR Path="/5E49A860/5EA2F070" Ref="C7R?"  Part="1" 
 F 0 "C7R2" H 8650 2685 50  0000 C CNN
 F 1 "SW_Push" H 8650 2594 50  0000 C CNN
-F 2 "Keyboard 2:Kailh_socket_MX_reversible_v2" H 8650 2600 50  0001 C CNN
+F 2 "Keyboard Library:Kailh_socket_MX_reversible_v2" H 8650 2600 50  0001 C CNN
 F 3 "~" H 8650 2600 50  0001 C CNN
+F 4 "1" H 8650 2400 50  0001 C CNN "Fält4"
+F 5 "Kaihl" H 8650 2400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CPG151101S11" H 8650 2400 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8650 2400
 	1    0    0    -1  
 $EndComp
@@ -704,6 +820,10 @@ F 0 "D7" H 9050 3000 50  0000 L CNN
 F 1 "BAV70S" H 9000 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9100 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9100 2800 50  0001 C CNN
+F 4 "BAV70S,135" H 9100 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "Nexperia" H 9100 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "771-BAV70S135" H 9100 2800 50  0001 C CNN "Mouser Part Number"
+F 7 "1" H 9100 2800 50  0001 C CNN "Fält4"
 	2    9100 2800
 	0    -1   1    0   
 $EndComp

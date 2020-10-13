@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Da.E.S.K.4R - Dual axis Ergo Split Keyboard 4 Row"
-Date "2020-09-29"
-Rev "0.91"
+Date "2020-10-13"
+Rev "0.95"
 Comp "Markus Knutsson <markus.knutsson@tweety.se>"
 Comment1 "https://github.com/TweetyDaBird"
 Comment2 "Licensed under CERN-OHL-S v2 or any later version"
@@ -27,6 +27,8 @@ F 0 "H1" H 2400 3796 50  0000 L CNN
 F 1 "MountingHole" H 2400 3705 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 2300 3750 50  0001 C CNN
 F 3 "~" H 2300 3750 50  0001 C CNN
+F 4 "0" H 2300 3750 50  0001 C CNN "Fält4"
+F 5 "Hole" H 2300 3750 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2300 3750
 	1    0    0    -1  
 $EndComp
@@ -38,6 +40,8 @@ F 0 "H2" H 2400 3996 50  0000 L CNN
 F 1 "MountingHole" H 2400 3905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 2300 3950 50  0001 C CNN
 F 3 "~" H 2300 3950 50  0001 C CNN
+F 4 "0" H 2300 3950 50  0001 C CNN "Fält4"
+F 5 "Hole" H 2300 3950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2300 3950
 	1    0    0    -1  
 $EndComp
@@ -49,6 +53,8 @@ F 0 "H6" H 3250 4196 50  0000 L CNN
 F 1 "MountingHole" H 3250 4105 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 3150 4150 50  0001 C CNN
 F 3 "~" H 3150 4150 50  0001 C CNN
+F 4 "0" H 3150 4150 50  0001 C CNN "Fält4"
+F 5 "Hole" H 3150 4150 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3150 4150
 	1    0    0    -1  
 $EndComp
@@ -60,6 +66,8 @@ F 0 "H5" H 3250 3996 50  0000 L CNN
 F 1 "MountingHole" H 3250 3905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 3150 3950 50  0001 C CNN
 F 3 "~" H 3150 3950 50  0001 C CNN
+F 4 "0" H 3150 3950 50  0001 C CNN "Fält4"
+F 5 "Hole" H 3150 3950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3150 3950
 	1    0    0    -1  
 $EndComp
@@ -71,6 +79,8 @@ F 0 "H4" H 3250 3796 50  0000 L CNN
 F 1 "MountingHole" H 3250 3705 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 3150 3750 50  0001 C CNN
 F 3 "~" H 3150 3750 50  0001 C CNN
+F 4 "0" H 3150 3750 50  0001 C CNN "Fält4"
+F 5 "Hole" H 3150 3750 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3150 3750
 	1    0    0    -1  
 $EndComp
@@ -82,6 +92,8 @@ F 0 "H7" H 2900 4396 50  0000 L CNN
 F 1 "MountingHole" H 2900 4305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 2800 4350 50  0001 C CNN
 F 3 "~" H 2800 4350 50  0001 C CNN
+F 4 "0" H 2800 4350 50  0001 C CNN "Fält4"
+F 5 "Hole" H 2800 4350 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2800 4350
 	1    0    0    -1  
 $EndComp
@@ -93,6 +105,8 @@ F 0 "H3" H 2400 4196 50  0000 L CNN
 F 1 "MountingHole" H 2400 4105 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.7mm" H 2300 4150 50  0001 C CNN
 F 3 "~" H 2300 4150 50  0001 C CNN
+F 4 "0" H 2300 4150 50  0001 C CNN "Fält4"
+F 5 "Hole" H 2300 4150 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2300 4150
 	1    0    0    -1  
 $EndComp
