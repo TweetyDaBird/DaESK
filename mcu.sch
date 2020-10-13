@@ -517,8 +517,6 @@ F 3 "" H 1000 3900 50  0001 C CNN
 	1    1000 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 1200 900  1200
 Text Notes 950  5250 0    50   ~ 0
 Recommended decouple: \n10uF per UVCC (4)\nand 0.1uF / VCC
 Wire Wire Line
@@ -570,24 +568,6 @@ F 6 "ERJ-3EKF1002V" H 1850 1050 50  0001 C CNN "Manufacturer_Part_Number"
 F 7 "667-ERJ-3GEYJ103V" H 1850 1050 50  0001 C CNN "Mouser Part Number"
 	1    1850 1050
 	1    0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5E61BB87
-P 1200 1200
-AR Path="/5E61BB87" Ref="SW?"  Part="1" 
-AR Path="/5D6CC2CC/5E61BB87" Ref="SW?"  Part="1" 
-AR Path="/5E135D8F/5E61BB87" Ref="SW2"  Part="1" 
-F 0 "SW2" H 1200 1485 50  0000 C CNN
-F 1 "Reset" H 1200 1394 50  0000 C CNN
-F 2 "SamacSys_Parts:EVPBB2A9B000" H 1200 1400 50  0001 C CNN
-F 3 "~" H 1200 1400 50  0001 C CNN
-F 4 "1" H 1200 1200 50  0001 C CNN "Fält4"
-F 5 "C&K Switches" H 1200 1200 50  0001 C CNN "Manufacturer_Name"
-F 6 "PTS635SH43LFS" H 1200 1200 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "611-PTS635SH43LFS" H 1200 1200 50  0001 C CNN "Mouser Part Number"
-	1    1200 1200
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1400 1200 1600 1200
@@ -1594,8 +1574,6 @@ Text GLabel 3800 1950 2    50   Input ~ 0
 ROW_2
 NoConn ~ 3800 2950
 Wire Wire Line
-	900  1200 900  1500
-Wire Wire Line
 	2150 1200 2150 1550
 Wire Wire Line
 	1850 850  1850 900 
@@ -2325,30 +2303,70 @@ F 3 "" H 4850 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 1550 3400 1550
+Text Label 3850 1550 0    50   ~ 0
+LED
+Wire Wire Line
+	900  1200 900  1500
+Wire Wire Line
+	1400 850  1400 1200
 $Comp
-L Switch:SW_Push SW?
-U 1 1 5FB99783
-P 1200 750
-AR Path="/5FB99783" Ref="SW?"  Part="1" 
-AR Path="/5D6CC2CC/5FB99783" Ref="SW?"  Part="1" 
-AR Path="/5E135D8F/5FB99783" Ref="SW1"  Part="1" 
-F 0 "SW1" H 1200 1035 50  0000 C CNN
-F 1 "Reset" H 1200 944 50  0000 C CNN
-F 2 "SamacSys_Parts:EVPBB2A9B000" H 1200 950 50  0001 C CNN
-F 3 "~" H 1200 950 50  0001 C CNN
-F 4 "1" H 1200 750 50  0001 C CNN "Fält4"
-F 5 "C&K Switches" H 1200 750 50  0001 C CNN "Manufacturer_Name"
-F 6 "PTS635SH43LFS" H 1200 750 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "611-PTS635SH43LFS" H 1200 750 50  0001 C CNN "Mouser Part Number"
-	1    1200 750 
+L SamacSys_Parts:EVP-BB2A9B000 S1
+U 1 1 5F988CDD
+P 600 200
+F 0 "S1" H 1050 465 50  0000 C CNN
+F 1 "EVP-BB2A9B000" H 1050 374 50  0000 C CNN
+F 2 "EVPBB2A9B000" H 1350 300 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_2616s.pdf" H 1350 200 50  0001 L CNN
+F 4 "Tactile Switches 2.6x1.6mm 1.6N 0.11mm travel IP67" H 1350 100 50  0001 L CNN "Description"
+F 5 "0" H 1350 0   50  0001 L CNN "Height"
+F 6 "667-EVP-BB2A9B000" H 1350 -100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-BB2A9B000?qs=iHX4uCgIbgPa3HqgzZ6vLw%3D%3D" H 1350 -200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 1350 -300 50  0001 L CNN "Manufacturer_Name"
+F 9 "EVP-BB2A9B000" H 1350 -400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    600  200 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 750  1400 1200
-Connection ~ 1400 1200
+	1500 200  1500 300 
 Wire Wire Line
-	1000 1200 1000 750 
-Connection ~ 1000 1200
-Text Label 3850 1550 0    50   ~ 0
-LED
+	1500 300  1500 650 
+Wire Wire Line
+	1500 850  1400 850 
+Connection ~ 1500 300 
+Wire Wire Line
+	600  300  600  200 
+Connection ~ 600  300 
+$Comp
+L SamacSys_Parts:EVP-BB2A9B000 S2
+U 1 1 5FA2519E
+P 600 650
+F 0 "S2" H 1050 915 50  0000 C CNN
+F 1 "EVP-BB2A9B000" H 1050 824 50  0000 C CNN
+F 2 "EVPBB2A9B000" H 1350 750 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_2616s.pdf" H 1350 650 50  0001 L CNN
+F 4 "Tactile Switches 2.6x1.6mm 1.6N 0.11mm travel IP67" H 1350 550 50  0001 L CNN "Description"
+F 5 "0" H 1350 450 50  0001 L CNN "Height"
+F 6 "667-EVP-BB2A9B000" H 1350 350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-BB2A9B000?qs=iHX4uCgIbgPa3HqgzZ6vLw%3D%3D" H 1350 250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 1350 150 50  0001 L CNN "Manufacturer_Name"
+F 9 "EVP-BB2A9B000" H 1350 50  50  0001 L CNN "Manufacturer_Part_Number"
+	1    600  650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  650  600  300 
+Wire Wire Line
+	1500 750  1500 850 
+Connection ~ 600  750 
+Wire Wire Line
+	600  650  600  750 
+Connection ~ 600  650 
+Wire Wire Line
+	1500 750  1500 650 
+Connection ~ 1500 750 
+Connection ~ 1500 650 
+Wire Wire Line
+	900  1200 600  1200
+Wire Wire Line
+	600  750  600  1200
 $EndSCHEMATC
